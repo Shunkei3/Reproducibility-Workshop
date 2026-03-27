@@ -1,0 +1,243 @@
+/*-- scss:defaults --*/
+
+// Colors
+$dark-green: #06402b;
+$light-green: #51a687;
+$blue: #375a7f;
+$bright-blue: #0d6efd;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$orange: #f99820;
+$white: #FFFFFF;
+// $maroon:#7a0019;
+$maroon:#8B322C;
+$light-maroon: #DD5746;
+$light-yellow:#fffec8;
+$black: #000000;
+$grey: #666667;
+$red: #900021;
+
+// Base document colors
+// $link-color: $light-green;
+// $link-hover-color: $bright-blue;
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-monospace: 'Fira Mono', monospace;
+
+$presentation-title-slide-text-align: left;
+
+// Block code
+$monokai-bg: #2e3440;
+
+
+/*-- scss:rules --*/
+// panel.tabset ----------------------------
+// default tab text color
+a[role="tab"] {
+  color: $grey;
+}
+
+// active tab
+a[aria-selected="true"]{
+  color: $light-maroon;
+}
+
+// fill color of the tab when it's hovered
+a:hover {
+  background-color: $light-yellow;
+}
+
+
+// Header ----------------------------
+
+.reveal h1 {
+  // font-size: 2.5rem;
+  font-size: 3.2rem;
+}
+
+.reveal h2 {
+  font-size: 3.2rem;
+  //   font-size: 1.8rem;
+  color: $bright-blue !important;
+}
+
+.reveal h3 {
+  font-size: 2.8rem;
+  color: $light-maroon !important;
+}
+
+.reveal h4 {
+  font-size: 2.2rem;
+  color: $light-maroon !important;
+}
+
+// call-out box configurations ----------------------------
+.reveal .callout.callout-style-default div.callout-title {
+  font-size: 1.8rem !important;
+}
+
+.reveal .callout.callout-style-default div.callout-content {
+  font-size: 1.8rem;
+}
+
+.content-box-blue {
+  background-color: #F0F8FF;
+}
+
+.content-box-gray {
+  background-color: #e2e2e2;
+}
+
+.content-box-grey {
+  background-color: #F5F5F5;
+}
+
+.content-box-army {
+  background-color: #737a36;
+}
+
+.content-box-green {
+  background-color: #d9edc2;
+}
+
+.content-box-purple {
+  background-color: #e2e2f9;
+}
+
+.content-box-red {
+  background-color: #ffcccc;
+}
+
+.content-box-yellow {
+  background-color: #fef5c4;
+}
+
+.light-maroon {
+  color: #DD5746;
+}
+
+
+// Code configurations ----------------------------
+
+// code in a regular R code chunk
+code.sourceCode.r {
+  font-size: 1.2rem;
+  background-color: #F0F8FF;
+}
+
+code in an webr code chunk 
+.reveal .mtk1{
+  font-size: 0.8rem;
+}
+
+// results of running codes
+pre div code {
+  font-size: 1rem;
+}
+
+// results of running codes in a regular r code chunk
+div.cell-output.cell-output-stdout pre code {
+  font-size: 1rem;
+  background-color: #f8f2f6;
+}
+
+
+// results of running codes in an webr code chunk ----------------------------
+div.qwebr-output-code-area pre {
+  background-color: #f8f2f6;
+}
+
+
+.code-output-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.code-block, .output-block {
+  width: 48%;
+}
+
+.code-block {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.output-block {
+  padding-left: 10px;
+}
+
+
+// webR stuff
+.qwebr-output-code-area {
+  margin-top: 1em;
+}
+
+.magic-block {
+  font-style: normal;
+  user-select: none;
+  padding: 0 0.1em 0 0.15em;
+  line-height: 1;
+  font-size: 120%;
+}
+
+
+
+/* // Title Slide Configuration ----------------------------
+// Style for the title slide container (optional, if you need extra padding or background) */
+.reveal .slides section:first-of-type h1 {
+  font-size: 4rem;  /* Adjust font size for the title */
+  font-weight: bold;
+  margin-bottom: 40px;  /* Space below title */
+}
+
+/* Target subtitle if it's in <p class="subtitle"> */
+.reveal .slides section:first-of-type .subtitle {
+  font-size: 3rem;  /* Subtitle size */
+  font-weight: normal;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Target author's name if it's in <p class="author"> */
+// .reveal .slides section:first-of-type .author {
+//   font-size: 2rem;        /* Author's name size */
+//   font-weight: normal; 
+//   margin-top: 30px;
+//   text-align: center;     /* center horizontally */
+//   display: block;         /* each author on its own line */
+// }
+
+.reveal .quarto-title-authors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.reveal .quarto-title-author {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Center and style title slide affiliation */
+.slides .quarto-title-affiliation {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 4px;
+  // color: $gray;
+  display: block;
+}
+
+
+.figure {
+  margin: auto;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}

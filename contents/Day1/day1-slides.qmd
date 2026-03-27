@@ -1,0 +1,139 @@
+---
+title: "Day 1: Introduction to Reproducibility in Scientific Research"
+authors:
+  - name: Shunkei Kakimoto
+    affiliations: "Department of Applied Economics, University of Minnesota"
+format: 
+  revealjs:
+    html-math-method: mathjax
+    self-contained: true
+    embed-resources: true
+    slide-number: c/t
+    width: 1600
+    height: 1000
+    theme: [simple, ../z_slide_style.scss]
+    css: ../z_extra.css
+    fontsize: 2em
+    bibliography: ../../assets/z_reproducibility.bib
+    callout-icon: false
+    scrollable: true
+    multiplex: false
+    title-slide-attributes:
+      data-background-color: "#447099"
+execute:
+  warning: false
+  message: false
+  echo: true
+  error: false
+  fig-align: "center"
+  cache: false
+engine: knitr
+---
+
+# Motivation: Why reproducibility matters in scientific research?
+
+## Increasing Awareness of Reproducibility Issues in Academia
+
+<br>
+
+> ***"One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it"*** --  from the report of "Reproducibility and Replicability in Science" (@NationalAcademiesofSciences.etal2019)
+
+
+
+## What is Reproducibility?
+
+:::{.callout-important}
+## Definitions: Reproducibility
+*Reproducibility refers to **the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator**[@Cacioppo.etal2015]*.
+:::
+
+<br>
+
+<!-- :::{.callout-note}
+## Definitions: Replicability
+*A research study is **replicable** if other teams reach the same conclusion by applying the same procedure to the difference materials (e.g., data).*
+:::
+
+<br>  -->
+
+In essence, reproducibility asks:
+
+"Can another researcher go from raw data to final results using only the materials you provide?"
+
+<br>
+
+So, what should we do to make our research reproducible?
+
+:::{.notes}
++ Reproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)
+
+:::
+
+
+## Key Components of Reproducible Research
+
+::: {.callout-note}
+## Minimum Rule
+Every single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.
+:::
+
+<br>
+
+The following characteristics can further enhance the quality of reproducible research:
+
+::: {.columns}
+
+::: {.column width="25%" .center}
+**(i) Organized Project Folder** 
+
+![](../x_images/folder_structure.png){width="70%"}
+:::
+
+::: {.column width="40%" .center}
+**(ii) Streamlined Code**
+![](../x_images/streamlined_code.png){width="150%"}
+:::
+
+::: {.column width="35%" .center}
+**(iii) Comprehensive Documentation**
+![](../x_images/documentation.png){width="100%"}
+
+:::
+
+:::
+
+
+
+::: {.notes}
++ Even if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics
+
+**Organized Project Folder**
+
+A well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.
+
+**Streamlined Code**
+
++ Workflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.
++ less manual edits, copy-past steps, ad hoc file handling, etc. that can be error-prone and time-consuming.
+
+
+**Comprehensive Documentation**
+
++ Documentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research. 
++ The documentation should provide setup instructions, dependencies, and execution order. 
+:::
+
+
+## Benefits of reproducibility
+
+Reproducibility practices (e.g., organized project folder, streamlined code, and comprehensive documentation) benefit you and your team members as well as the scientific community.
+
+
+:::{.notes}
+A project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:
+:::
+
+
+## Agenda for this workshop
+
+For the rest of the workshop, we will cover how to 

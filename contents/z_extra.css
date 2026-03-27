@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+.code-output-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.code-block, .output-block {
+  width: 48%;
+}
+
+.code-block {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.output-block {
+  padding-left: 10px;
+}
+
+
+.quarto-figure-center>figure>p, .quarto-figure-center>figure>div:not(.html-widget) {
+  text-align: center;
+}
+
+figure.quarto-float div.leaflet-control {
+  text-align: left;
+}
+
+
+/* // Figure captions ---------------------------- */
+/* Center all figures, images, and captions */
+figure {
+  margin: auto;
+  text-align: center; /* This centers both the image and caption */
+}
+
+/* Center the images inside all figures */
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Customize the captions of all figures */
+figure figcaption {
+  font-size: 18px;  /* Adjust the font size as needed */
+  color: #333;      /* Customize the caption color */
+}
+

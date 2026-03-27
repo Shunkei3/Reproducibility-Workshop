@@ -1,0 +1,476 @@
+/*-- scss:defaults --*/
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// fonts
+// $font-family: "Atkinson Hyperlegible", sans-serif;
+$font-family-sans-serif:      IBM Plex Sans Condensed, sans-serif !default;
+$font-family-serif:           IBM Plex Sans Condensed, serif !default;  /* Not actually a serif font but whatever */
+
+// The style is borrowed from Dr.Dr. Andrew Heiss
+// https://github.com/andrewheiss/econs24.classes.andrewheiss.-com/blob/main/html/custom.scss
+
+
+// Colors
+$dark-green: #0e372d;
+$green: #1f7a5f;
+$light-green: #32dc9f;
+$blue: #375a7f;
+$light-blue: #7ea7d8;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$orange: #ad7237;
+$black: #000000;
+$umn-maroon:#7a0019;
+$umn-gold:#ffcc33;
+
+$font-size-base: 1.15rem !default;
+$headings-font-weight: 700 !default;
+
+$h1-font-size: $font-size-base * 2.35;
+$h2-font-size: $font-size-base * 1.8;
+$h3-font-size: $font-size-base * 1.45;
+$h4-font-size: $font-size-base * 1.1;
+$h5-font-size: $font-size-base * 1;
+$h6-font-size: $font-size-base * 0.8;
+
+
+$toc-font-size: 0.95rem;
+$sidebar-font-size: 1.1rem;
+$sidebar-font-size-section: 0.95rem;
+$footer-font-size: 0.95rem;
+
+
+$link-color: $green;
+$link-hover-color: $umn-maroon;
+
+$monokai-bg: #2e3440;
+
+// Slightly bigger callouts
+// .callout.callout-style-default .callout-body,
+// .callout.callout-style-default > div.callout-header {
+//   font-size: 1.5rem !important;
+// }
+
+// .callout-icon-container {
+//   padding-top: 0 !important;
+// }
+
+
+// Custome callout box
+.solutionbox {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  border-radius: .25rem;
+  border-left: solid #acacac .3rem;
+  border-right: solid 1px silver;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  border-left-color: $light-blue !important;
+}
+
+.solutionbox-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  margin-top: .4rem;
+  padding-right: 2rem; // space between icon and text
+  // background-image: url('bullseye-solid.svg');
+  background-image: url("image/electricity-icon.png");
+}
+
+.solutionbox-header{
+  // margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  font-weight: 600;
+  opacity: 85%;
+  font-size:  $font-size-base; // size of the header
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background-color: $light-blue;
+  color: black;
+  height: 2em;
+  overflow: hidden;
+}
+
+.solutionbox-body{
+  font-size: 3; // size of text in the body
+  font-weight: 400;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.solutionbox-header p {
+  padding-top: 0.2em;
+}
+
+.solutionbox-body > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+// Custome callout box 1 (stop and think)
+.stopthinkbox {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  border-radius: .25rem;
+  border-left: solid #acacac .3rem;
+  border-right: solid 1px silver;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  border-left-color: $light-green !important;
+}
+
+.stopthinkbox-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  margin-top: .4rem;
+  padding-right: 2rem; // space between icon and text
+  // background-image: url('bullseye-solid.svg');
+  background-image: url("image/two-overlapping-speech-bubbles-icon.png");
+}
+
+.stopthinkbox-header{
+  // margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  font-weight: 600;
+  opacity: 85%;
+  font-size:  $font-size-base; // size of the header
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background-color: $light-green;
+  color: black;
+  height: 2em;
+  overflow: hidden;
+}
+
+.stopthinkbox-body{
+  font-size: 3; // size of text in the body
+  font-weight: 400;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.stopthinkbox-header p {
+  padding-top: 0.2em;
+}
+
+.stopthinkbox-body > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+
+// Another custom callout box here
+// https://www.andreashandel.com/posts/2023-06-13-custom-callouts-quarto/
+.goals {
+  margin: 1em 0;
+  border: 2px solid gray;
+  border-left: 10px solid orange; 
+  border-radius: 10px;
+}
+
+.goals-header {
+  margin-left: 0em;
+  padding-left:  60px;
+  padding-top:  5px;
+  padding-bottom: 0.1em;
+  color: black;
+  background-color: orange;
+  border-top-right-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  height: 2em;
+  background-image: url("image/challenge-target-icon.png");
+  padding-right: 1.8rem; // space between icon and text
+}
+
+.goals-container {
+  padding-top: 5px;
+  padding-left: 10px;
+  color: black;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+}
+
+.goals-container  > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+
+/*-- scss:rules --*/
+h2 {
+  border-bottom: 1px solid $gray-500;
+}
+
+ul,
+ol {
+  font-family: $font-family-serif;
+}
+
+// Home page stuff
+.title-block {
+  margin: 1em 0;
+  border-bottom: 3px solid $gray-200;
+  padding-bottom: 1em;
+}
+
+.course-details {
+  margin: 0 0 1em;
+  border-bottom: 3px solid $gray-200;
+  padding-bottom: 1em;
+}
+
+.course-details h3 {
+  margin-top: 0;
+}
+
+.course-title {
+  font-size: 3.5rem;
+  margin-top: 0;
+}
+
+.course-subtitle {
+  font-size: 1.7rem;
+}
+
+.course-meta {
+  font-size: 1.2rem;
+  color: $gray-600;
+}
+
+
+// I copied this from Font Awesome's .fa-ul since there's no way to add a class
+// to a pandoc list
+.course-details ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 1.5em);  // Was originally 2.5
+  padding-left: 0;
+}
+.course-details ul > li {
+  position: relative;
+}
+
+// .contact-policy p {
+//   font-size: 1rem;
+//   line-height: 1.5;
+// }
+
+.course-details-smaller li {
+  font-size: 1rem;
+}
+
+.course-details-smaller h3 {
+  font-size: 1.4rem;
+}
+
+
+// Footer stuff
+.nav-footer-left {
+  text-align: left;
+}
+
+.nav-footer-right {
+  text-align: right;
+}
+
+// Temporarily hide the middle div since it has unmodifiable GitHub links as of Quarto 1.3.something: https://github.com/quarto-dev/quarto-cli/issues/5283
+.nav-footer-center {
+  display: none;
+}
+
+.nav-footer-left {
+  flex-grow: 3;
+}
+
+
+// Schedule stuff
+.content-title {
+  font-weight: 700;
+  // color: $blue;
+}
+
+.content-date {
+  font-weight: 700;
+}
+
+.content-note {
+  font-size: 0.8rem;
+  display: block;
+}
+
+.content-session {
+  font-size: 0.85em;
+}
+
+// .content-flag {
+//   font-weight: 700;
+//   color: $orange;
+// }
+
+.schedule-page h3 {
+  text-align: left;
+  margin-top: 3rem;
+  // border-bottom: 3px solid $indigo;
+  // padding-bottom: 0.5rem;
+}
+
+.download-btn {
+  padding-top: 0.25rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+// News stuff
+// .back-nav {
+//   margin-bottom: 1.5rem;
+// }
+
+// .news .quarto-title-meta {
+//   font-size: 1.1rem;
+//   border-left: 5px solid $purple;
+//   padding: 0 0.5rem 1rem;
+//   margin: 1rem 0 2.5rem;
+//   background-color: lighten($purple, 30%);
+// }
+
+// .news .quarto-categories {
+//   padding-top: 0.5em;
+// }
+
+
+// Content page stuff
+// Date bar
+.date-block {
+  font-size: 1.1rem;
+
+  p.date {
+    margin-bottom: 0 !important;
+  }
+}
+
+// .bg-class {
+//   background-color: $orange;
+// }
+
+.bg-assignment {
+  background-color: $red;
+}
+
+// Slightly larger buttons
+p a.btn, .buttons span.btn {
+  font-size: 1.1rem;
+}
+
+.buttons .btn {
+  margin-bottom: 1rem;
+}
+
+main {
+  // No space after lists-within-lists
+  ol ol,
+  ul ul,
+  ol ul,
+  ul ol {
+    margin-bottom: 0em;
+  }
+
+  // But yes space after lists-within-lists when paragraphs are involved
+  ol p + ol,
+  ul p + ul,
+  ol p + ul,
+  ul p + ol {
+    margin-bottom: 1em;
+  }
+}
+
+// In Quarto 1.3.357 (and probably before), when column: XX is used on a page, 
+// the <main> element gets assigned the .page-columns class, and for whatever 
+// reason, <h1>s in that class get their bottom margin removed, so we have to 
+// add it back here
+main.page-columns > header > h1.title, 
+main.page-columns > header > .title.h1 {
+  margin-bottom: 1rem;
+}
+
+// Increase font size in sidebar
+.sidebar-navigation .sidebar-section .sidebar-item,
+.sidebar-navigation .sidebar-item{
+  line-height: 1.2;
+  padding-bottom: 0.4rem;
+}
+
+.sidebar-item .sidebar-item-toggle .bi {
+  // The dongle for opening and closing sections
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+// Increase font size in TOC
+#TOC {
+  padding-bottom: 0.1em;
+}
+
+#toc-title {
+  font-weight: 700;
+}
+
+.sidebar nav[role="doc-toc"] > ul li a {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+
+  &.active {
+    border-left: 1px solid $orange;
+    color: $orange !important;
+  }
+}
+
+// Code stuff
+// Shrink blocks of code
+pre.text, pre.sourceCode, .cell-output pre {
+  font-size: 0.775em;
+}
+
+// Slight bottom margin to output
+.cell-output {
+  margin: 0 0 1em;
+}
+
+// Remove margin on pre in output
+.cell-output pre {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+// Format output and plain text blocks like code
+.cell-output, pre.text {
+  border: none;
+  padding: .4em;
+  background-color: $monokai-bg;
+  border: 1px solid $monokai-bg;
+  border-radius: .25rem;
+}
+
+pre.text {
+  color: #ffffff;
+}
+
+
+

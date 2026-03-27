@@ -1,0 +1,23 @@
+---
+title: ""
+---
+
+## Workshop Description
+
+In this two-part workshop, The first session covers foundational practices such as data management, version control, code organization, and documentation standards aligned with leading journals, helping students structure empirical workflows that enhance credibility and long-term impact. The second session builds on these foundations with hands-on applications and more advanced workflow strategies. Topics include preparing replication packages, improving computational efficiency, collaborative coding practices, and meeting journal data requirements. Together, the sessions provide practical tools to help students ensure their research meets evolving standards in applied economics.
+
+<br>
+
+## Learning Objectives
+
+By completing the course, you will be able to 
+
+
+## In preparation for the workshop
+
++ Download and Install R and R studio on your laptop. To do this, follow the procedure described in [this website](https://posit.co/download/rstudio-desktop/)
++ Get UCard access to Ruttan Hall:
+  + Request access to the building (Ruttan Hall)
++ Finish [the Survey](https://forms.gle/FqUFKkPMw3rMo3A86). 
++ Bring your laptop to the class.
+

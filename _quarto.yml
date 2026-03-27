@@ -1,21 +1,54 @@
 project:
   type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!contents/z_ideas/"
 
 website:
-  title: "ReproducibilityWorkshop"
+  title: "Reproducibility rules in economics"
+  description: "A website for the Reproducibility Workshop at the Applied Economics Department of the University of Minnesota, 2026."
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: primary
+    right: 
+      - icon: github
+        href: https://github.com/Shunkei3/Reproducibility-Workshop
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - text: Home
+        href: contents/index.qmd
+      - section: "Workshop materials"
+        contents:
+          - text: Day 1
+            href: contents/Day1/day1.qmd
+          - text: Day 2
+            href: contents/Day2/day2.qmd
+      - section: "Bonus materials"
+        contents:
+
+
+
+
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: [cosmo, flatly, assets/css/theme.scss]
+    # theme:  
+    #   light: [cosmo, flatly, assets/css/theme.scss]
+    #   dark: [cosmo, darkly,  assets/css/theme.scss]
+    # mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
     toc: true
+
+# callout-appearance: simple
+
+# execute:
+#   freeze: auto
 
 
 

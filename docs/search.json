@@ -1,0 +1,229 @@
+[
+  {
+    "objectID": "contents/index.html",
+    "href": "contents/index.html",
+    "title": "Reproducibility rules in economics",
+    "section": "",
+    "text": "In this two-part workshop, The first session covers foundational practices such as data management, version control, code organization, and documentation standards aligned with leading journals, helping students structure empirical workflows that enhance credibility and long-term impact. The second session builds on these foundations with hands-on applications and more advanced workflow strategies. Topics include preparing replication packages, improving computational efficiency, collaborative coding practices, and meeting journal data requirements. Together, the sessions provide practical tools to help students ensure their research meets evolving standards in applied economics.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#workshop-description",
+    "href": "contents/index.html#workshop-description",
+    "title": "Reproducibility rules in economics",
+    "section": "",
+    "text": "In this two-part workshop, The first session covers foundational practices such as data management, version control, code organization, and documentation standards aligned with leading journals, helping students structure empirical workflows that enhance credibility and long-term impact. The second session builds on these foundations with hands-on applications and more advanced workflow strategies. Topics include preparing replication packages, improving computational efficiency, collaborative coding practices, and meeting journal data requirements. Together, the sessions provide practical tools to help students ensure their research meets evolving standards in applied economics.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#learning-objectives",
+    "href": "contents/index.html#learning-objectives",
+    "title": "Reproducibility rules in economics",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy completing the course, you will be able to",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#in-preparation-for-the-workshop",
+    "href": "contents/index.html#in-preparation-for-the-workshop",
+    "title": "Reproducibility rules in economics",
+    "section": "In preparation for the workshop",
+    "text": "In preparation for the workshop\n\nDownload and Install R and R studio on your laptop. To do this, follow the procedure described in this website\nGet UCard access to Ruttan Hall:\n\nRequest access to the building (Ruttan Hall)\n\nFinish the Survey.\nBring your laptop to the class.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html",
+    "href": "contents/Day1/day1.html",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "",
+    "text": "principles of research trnasparency and reproducibility in economics\nrobustness of scientifit research",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#workflow",
+    "href": "contents/Day1/day1.html#workflow",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Workflow",
+    "text": "Workflow\n\nZotero for reference management\nQuarto for scientific report\n\nHow to insert figures and tables created by R\nhow to insert citations\nspell checker (Code Spell Checker extension)\n\nGit for code management",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#reproducibility-vs-replicability-cacioppo.etal2015",
+    "href": "contents/Day1/day1.html#reproducibility-vs-replicability-cacioppo.etal2015",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Reproducibility vs Replicability (@Cacioppo.etal2015)",
+    "text": "Reproducibility vs Replicability (@Cacioppo.etal2015)\n\n\n\n\n\n\nDefinitions: Reproducibility\n\n\n\nA research study is reproducible if anybody (including the author of the study) can generate exactly the same results by using the same materials (e.g., data, code, and documentation) and procedures used in the study.\n\n\n\n\n\n\n\n\nDefinitions: Replicability\n\n\n\nA research study is replicable if other teams reach the same conclusion by applying the same procedure to the difference materials (e.g., data).\n\n\nWe will focus on reproducibility in this workshop.",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#reproducibility-vs-replicability",
+    "href": "contents/Day1/day1.html#reproducibility-vs-replicability",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Reproducibility vs Replicability",
+    "text": "Reproducibility vs Replicability\nHere are the definitions of reproducibility and replicability from @Cacioppo.etal2015:\n\n\n\n\n\n\nDefinitions: Reproducibility\n\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.\n\n\n\n\n\n\n\n\nDefinitions: Replicability\n\n\n\nA research study is replicable if other teams reach the same conclusion by applying the same procedure to the difference materials (e.g., data).",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#how-can-we-increase-reproducibility-in-our-research",
+    "href": "contents/Day1/day1.html#how-can-we-increase-reproducibility-in-our-research",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "How can we increase reproducibility in our research?",
+    "text": "How can we increase reproducibility in our research?",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#reproducibility-benefits-you-and-your-tea-members-as-well-as-the-scientific-community",
+    "href": "contents/Day1/day1.html#reproducibility-benefits-you-and-your-tea-members-as-well-as-the-scientific-community",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Reproducibility benefits you and your tea members as well as the scientific community",
+    "text": "Reproducibility benefits you and your tea members as well as the scientific community",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#agenda-for-this-workshop",
+    "href": "contents/Day1/day1.html#agenda-for-this-workshop",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Agenda for this workshop",
+    "text": "Agenda for this workshop\nFor the rest of the workshop, we will cover how to",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#increasing-importance-of-reproducibility-in-scientific-research",
+    "href": "contents/Day1/day1.html#increasing-importance-of-reproducibility-in-scientific-research",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Increasing importance of reproducibility in scientific research",
+    "text": "Increasing importance of reproducibility in scientific research\nFor example,\n\n@Vilhuber2020\n@Cacioppo.etal2015",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#how-can-we-achieve-reproducibility-in-our-research",
+    "href": "contents/Day1/day1.html#how-can-we-achieve-reproducibility-in-our-research",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "How can we achieve reproducibility in our research?",
+    "text": "How can we achieve reproducibility in our research?\n\n\n\n\n\n\nRule\n\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1.html#characteristics-of-high-quality-reproducible-research",
+    "href": "contents/Day1/day1.html#characteristics-of-high-quality-reproducible-research",
+    "title": "Day 1: Introduction to Reproducibility in Economics",
+    "section": "Characteristics of high-quality reproducible research",
+    "text": "Characteristics of high-quality reproducible research\n\nOrganized Project Folder\nA well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.\nStreamlined Code\nWorkflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.\nComprehensive Documentation\nDocumentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research.\n\nReproducibility benefits you and your team members as well as the scientific community.\n\nA project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:",
+    "crumbs": [
+      "Workshop materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#reproducibility-and-replicability",
+    "href": "contents/Day1/day1-slides.html#reproducibility-and-replicability",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Reproducibility and Replicability",
+    "text": "Reproducibility and Replicability\nHere are the definitions of reproducibility and replicability from Cacioppo et al. (2015):\n\n\n\nDefinitions: Reproducibility\n\n\n“Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.”\n\n\n\n\n\n\n\nDefinitions: Replicability\n\n\nA research study is replicable if other teams reach the same conclusion by applying the same procedure to the difference materials (e.g., data).\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\nSo, what should we do to make our research reproducible?\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#how-can-we-achieve-reproducibility-in-our-research",
+    "href": "contents/Day1/day1-slides.html#how-can-we-achieve-reproducibility-in-our-research",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "How can we achieve reproducibility in our research?",
+    "text": "How can we achieve reproducibility in our research?\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n\nThe following characteristics can further enhance the quality of reproducible research:\n\n\n(i) Organized Project Folder\n\n\n(ii) Streamlined Code \n\n(iii) Comprehensive Documentation \n\n\n\nEven if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics\n\nOrganized Project Folder\nA well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.\nStreamlined Code\n\nWorkflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.\nless manual edits, copy-past steps, ad hoc file handling, etc. that can be error-prone and time-consuming.\n\nComprehensive Documentation\n\nDocumentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research.\nThe documentation should provide setup instructions, dependencies, and execution order."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#characteristics-of-high-quality-reproducible-research",
+    "href": "contents/Day1/day1-slides.html#characteristics-of-high-quality-reproducible-research",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Characteristics of high-quality reproducible research",
+    "text": "Characteristics of high-quality reproducible research\n\nOrganized Project Folder\nA well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.\nStreamlined Code\nWorkflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.\nComprehensive Documentation\nDocumentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research.\n\nReproducibility benefits you and your team members as well as the scientific community.\n\nA project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#agenda-for-this-workshop",
+    "href": "contents/Day1/day1-slides.html#agenda-for-this-workshop",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Agenda for this workshop",
+    "text": "Agenda for this workshop\nFor the rest of the workshop, we will cover how to\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nNational jkAcademies of Sciences, Medicine, Policy, Global Affairs, Board on Research Data, Information, Division on Engineering, Physical Sciences, Committee on Applied, and Theoretical Statistics. 2019. Reproducibility and Replicability in Science. National Academies Press."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#why-reproducibility-matters",
+    "href": "contents/Day1/day1-slides.html#why-reproducibility-matters",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Why reproducibility matters?",
+    "text": "Why reproducibility matters?"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
+    "href": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Benefits of reproducibility",
+    "text": "Benefits of reproducibility\nReproducibility practices (e.g., organized project folder, streamlined code, and comprehensive documentation) benefit you and your team members as well as the scientific community.\n\nA project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#increasing-awareness-of-reproducibility-issues",
+    "href": "contents/Day1/day1-slides.html#increasing-awareness-of-reproducibility-issues",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Increasing Awareness of Reproducibility Issues",
+    "text": "Increasing Awareness of Reproducibility Issues\n\n\n“One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it” – from the report of “Reproducibility and Replicability in Science” (National Academies of Sciences et al. (2019))"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#increasing-awareness-of-reproducibility-issues-in-academia",
+    "href": "contents/Day1/day1-slides.html#increasing-awareness-of-reproducibility-issues-in-academia",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Increasing Awareness of Reproducibility Issues in Academia",
+    "text": "Increasing Awareness of Reproducibility Issues in Academia\n\n\n“One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it” – from the report of “Reproducibility and Replicability in Science” (National jkAcademies of Sciences et al. (2019))"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#test",
+    "href": "contents/Day1/day1-slides.html#test",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "test",
+    "text": "test\n\n\n(i) Organized Project Folder\n\n\n\n\nEven if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics\n\nOrganized Project Folder\nA well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.\nStreamlined Code\n\nWorkflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.\nless manual edits, copy-past steps, ad hoc file handling, etc. that can be error-prone and time-consuming.\n\nComprehensive Documentation\nDocumentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#key-components-of-reproducible-research",
+    "href": "contents/Day1/day1-slides.html#key-components-of-reproducible-research",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Key Components of Reproducible Research",
+    "text": "Key Components of Reproducible Research\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n\nThe following characteristics can further enhance the quality of reproducible research:\n\n\n(i) Organized Project Folder\n\n\n(ii) Streamlined Code \n\n(iii) Comprehensive Documentation \n\n\n\nEven if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics\n\nOrganized Project Folder\nA well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.\nStreamlined Code\n\nWorkflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.\nless manual edits, copy-past steps, ad hoc file handling, etc. that can be error-prone and time-consuming.\n\nComprehensive Documentation\n\nDocumentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research.\nThe documentation should provide setup instructions, dependencies, and execution order."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#what-is-reproducibility",
+    "href": "contents/Day1/day1-slides.html#what-is-reproducibility",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "What is Reproducibility?",
+    "text": "What is Reproducibility?\n\n\n\nDefinitions: Reproducibility\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator(Cacioppo et al. 2015).\n\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\nSo, what should we do to make our research reproducible?\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
+  }
+]
