@@ -6,3 +6,5 @@
 z_ideas/
 
 /.quarto/
+
+**/*.quarto_ipynb

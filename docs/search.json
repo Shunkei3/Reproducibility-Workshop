@@ -189,7 +189,7 @@
     "href": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
     "title": "Day 1: Introduction to Reproducibility in Scientific Research",
     "section": "Benefits of reproducibility",
-    "text": "Benefits of reproducibility\nReproducibility practices (e.g., organized project folder, streamlined code, and comprehensive documentation) benefit you and your team members as well as the scientific community.\n\nA project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:"
+    "text": "Benefits of reproducibility\nReproducibility practices (e.g., organized project folder, streamlined code, and comprehensive documentation) benefit you and your team members as well as the scientific community.\n\nFor you and your team:\n\nFaster debugging and iteration\n\nEasier collaboration and handoffs\n\nReduced risk of errors\n\nFor the scientific community:\n\nTransparent and verifiable results\n\nLower replication costs\n\nGreater credibility of research findings"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#increasing-awareness-of-reproducibility-issues",
@@ -203,7 +203,7 @@
     "href": "contents/Day1/day1-slides.html#increasing-awareness-of-reproducibility-issues-in-academia",
     "title": "Day 1: Introduction to Reproducibility in Scientific Research",
     "section": "Increasing Awareness of Reproducibility Issues in Academia",
-    "text": "Increasing Awareness of Reproducibility Issues in Academia\n\n\n“One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it” – from the report of “Reproducibility and Replicability in Science” (National jkAcademies of Sciences et al. (2019))"
+    "text": "Increasing Awareness of Reproducibility Issues in Academia\n\n\n“One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it” – from the report of “Reproducibility and Replicability in Science” (National Academies of Sciences et al. (2019))"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#test",
@@ -217,13 +217,55 @@
     "href": "contents/Day1/day1-slides.html#key-components-of-reproducible-research",
     "title": "Day 1: Introduction to Reproducibility in Scientific Research",
     "section": "Key Components of Reproducible Research",
-    "text": "Key Components of Reproducible Research\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n\nThe following characteristics can further enhance the quality of reproducible research:\n\n\n(i) Organized Project Folder\n\n\n(ii) Streamlined Code \n\n(iii) Comprehensive Documentation \n\n\n\nEven if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics\n\nOrganized Project Folder\nA well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.\nStreamlined Code\n\nWorkflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.\nless manual edits, copy-past steps, ad hoc file handling, etc. that can be error-prone and time-consuming.\n\nComprehensive Documentation\n\nDocumentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research.\nThe documentation should provide setup instructions, dependencies, and execution order."
+    "text": "Key Components of Reproducible Research\n\n\nBasicsFile organizationStreamlined codeComprehensive documentation\n\n\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n To achieve high-quality reproducibility in practice, the following components are essential:\n\n\n(i) Organized Project Folder\n\n\n(ii) Streamlined Code \n\n(iii) Comprehensive Documentation \n\n\n\nPlace code files, data files, and documentation files in the right folders with clear names\nFor example\n\nData/Raw folder should contain the original data files, and Data/Processed folder should contain the cleaned data files.\n\n\n\n\nAutomate\n\n\n\n\n\n\n\n\n\nThe minimum rule ensures that a project is reproducible in principle. However, this alone does not guarantee that the research is easy to understand, verify, or reuse. High-quality reproducibility requires additional structure and clarity.\nOrganizing the project folder is the easiest one to implement, and you can do this from today.\nThe third component, which is comprehensive documentation, is also relatively easy to implement. You can start by writing a README file that explains the data sources, methods, and reproduction steps. For example, you can look at the README file of the Justin’s github repository.\nThe second component, which is streamlined code, may require more time and effort to implement. This is the focus of this workshop, and I’m going to introduce some tools and strategies to help you achieve this."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#what-is-reproducibility",
     "href": "contents/Day1/day1-slides.html#what-is-reproducibility",
     "title": "Day 1: Introduction to Reproducibility in Scientific Research",
     "section": "What is Reproducibility?",
-    "text": "What is Reproducibility?\n\n\n\nDefinitions: Reproducibility\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator(Cacioppo et al. 2015).\n\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\nSo, what should we do to make our research reproducible?\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
+    "text": "What is Reproducibility?\n\n\n\nDefinition: Reproducibility\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator(Cacioppo et al. 2015).\n\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\nSo, what should we do to make our research reproducible?\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",
+    "href": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Take a look at an example of a reproducible project",
+    "text": "Take a look at an example of a reproducible project\nWe will go through an example of a reproducible project to see how the key components of reproducibility are implemented in practice.\nDownload the project material from here\n\n\n\n\nNOTE\n\n\nThis material is based on the github repository of Prof. Taro Mieno (here), which is created to demonstrate the principles of reproducibility in scientific research in his course at the University of Nebraska-Lincoln. I modified the original material to fit the purpose of this workshop, but the core structure and content are based on his work."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#todays-outline",
+    "href": "contents/Day1/day1-slides.html#todays-outline",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": " Today’s Outline",
+    "text": "Today’s Outline\n\nMotivation: Why, what, and how of reproducibility in scientific research\nExample of a reproducible project"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#growing-interest-in-enhancing-transparency-and-reproducibility-in-academia",
+    "href": "contents/Day1/day1-slides.html#growing-interest-in-enhancing-transparency-and-reproducibility-in-academia",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Growing Interest in Enhancing Transparency and Reproducibility in Academia",
+    "text": "Growing Interest in Enhancing Transparency and Reproducibility in Academia\n\nReproducibility has always been a core scientific principle. However, it has become a growing concern in modern research.\nWhy now?\n\nIncreasingly complex data and code pipelines (National Academies of Sciences et al. 2019)\nHidden steps and undocumented decisions (Gentzkow and Shapiro 2014)\nIncentives favor speed over transparency (Franco et al. 2014)\n\nImplications\n\nResults are hard to verify\nReproducibility often fails even when data and code are available (Chang and Li 2018)\n\nCredibility of research is at risk (Baker 2016)\n\nTakeaway\n\nReproducibility practices are no longer optional—they are essential.\n\n\n\nReproducibility is not a new concern. It is a longstanding norm of science.\nThe reason might be because that research became more computationally complex.\nAEA: Data and Code Availability Policy (https://www.aeaweb.org/journals/data/data-code-policy?utm_source=chatgpt.com)"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#growing-interest-in-enhancing-transparency-and-reproducibility-in-academia---part-2",
+    "href": "contents/Day1/day1-slides.html#growing-interest-in-enhancing-transparency-and-reproducibility-in-academia---part-2",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Growing Interest in Enhancing Transparency and Reproducibility in Academia - Part 2",
+    "text": "Growing Interest in Enhancing Transparency and Reproducibility in Academia - Part 2\nReproducibility has always been a core scientific principle. However, it has become a growing concern in modern research.\nWhy now? - Increasingly complex data and code pipelines (National Academies of Sciences et al. 2019) - Hidden steps and undocumented decisions (Gentzkow and Shapiro 2014) - Incentives favor speed over transparency (Franco, Malhotra, and Simonovits 2014)\nImplications - Results are hard to verify (National Academies of Sciences et al. 2019)\n- Replication is costly or infeasible (Chang and Li 2018)\n- Credibility of research is at risk (Baker 2016)\nTakeaway + Reproducibility practices are no longer optional—they are essential.\n\n\nReproducibility is not a new concern. It is a longstanding norm of science.\nThe reason might be because that research became more computationally complex.\nAEA: Data and Code Availability Policy (https://www.aeaweb.org/journals/data/data-code-policy?utm_source=chatgpt.com)"
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#references",
+    "href": "contents/Day1/day1-slides.html#references",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": "References",
+    "text": "References\n\n\n\n\nBaker, Monya. 2016. 1,500 Scientists Lift the Lid on Reproducibility.\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nChang, Andrew C, and Phillip Li. 2018. “Is Economics Research Replicable? Sixty Published Papers from Thirteen Journals Say ‘Often Not’.” Critical Finance Review 7: 1–25.\n\n\nFranco, Annie, Neil Malhotra, and Gabor Simonovits. 2014. “Publication Bias in the Social Sciences: Unlocking the File Drawer.” Science 345 (6203): 1502–5.\n\n\nGentzkow, Matthew, and Jesse M Shapiro. 2014. Code and Data for the Social Sciences: A Practitioner’s Guide. Working Paper, University of Chicago.\n\n\nNational Academies of Sciences, Medicine, Policy, et al. 2019. Reproducibility and Replicability in Science. National Academies Press."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-todays-outline",
+    "href": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-todays-outline",
+    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "section": " Today’s Outline",
+    "text": "Today’s Outline\n\nMotivation: Why, what, and how of reproducibility in scientific research\nExample of a reproducible project"
   }
 ]
