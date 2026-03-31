@@ -285,7 +285,7 @@ We will go through an example of a reproducible project to see how the key compo
 <!-- (https://www.dropbox.com/scl/fo/tjjib9q1xiu1okrucc1cc/ANGfjb2Bc5O6peuc0fzBwvQ?rlkey=kfukrx0krx1bigiadcuy4kxw3&st=5jsibzo1&dl=0). -->
 <br>
 
-You can clone the repository from:
+You can clone the repository by:
 
 + Copy the URL of the repository: https://github.com/Shunkei3/Sample-Reproducible-Project.git
 + Rstudio: File > New Project > Version Control > Git > paste the URL of the repository
@@ -298,11 +298,11 @@ You can clone the repository from:
 
 ::: {.callout-tip}
 ### Check
-+ Take a look at the README.md file.
-+ How are the project folder organized?
-+ Take a look at a code file. Why do you think code is written in `.qmd` file instead of `.R` file?
-+ Check out the `writing` folder and see how the tables and figures are inserted into the report.
-+ Check out the `main.qmd` file and see how the whole workflow is executed in an automated and traceable way.
++ README.md &rarr; How is the project is described?
++ Project folder &rarr; How are data, code, and outputs organized?
++ Code files &rarr; Why use `.qmd` files instead of `.R` files?
++ Manuscript (`writing/manuscript_to_pdf.qmd`) &rarr; How are tables and figures generated and included?
++ Workflow (`main.qmd`) &rarr; How is the entire project reproduced?
 :::
 
 <br>
@@ -331,9 +331,11 @@ Reproducible research means that anyone can go from raw data to final results us
 + **Make your work accessible**
   + &rarr; Share code and data on public repositories in a stable and citable way.
 
-## Next Session: Practical tools for reproducibility
+## Next Session: Practical tools for reproducibility {.center}
 
-We will cover the practical tools in more detail in the next session! Do you have any suggestion on what tools you want to learn in the next session?
+We will cover the practical tools in more detail in the next session! 
+
+Do you have any suggestion on what tools you want to learn in the next session?
 
 
 ## References {visibility="uncounted"}
