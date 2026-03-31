@@ -251,7 +251,7 @@ You can share code and data together on data repositories, but in many cases, **
 
 ## Benefits of reproducibility {.center}
 
-Reproducibility practices (e.g., organized project folder, streamlined code, and comprehensive documentation) benefit you and your team members as well as the scientific community.
+Reproducibility practices (e.g., project organization, reproducible workflow, and detailed documentation) benefit you and your team members as well as the scientific community.
 
 <br>
 
