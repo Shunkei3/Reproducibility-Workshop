@@ -7,7 +7,6 @@ format:
     toc-depth: 2
     number-sections: true
     page-layout: full
-    standalone: true
 ---
 
 # Introduction
