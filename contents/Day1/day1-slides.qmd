@@ -167,7 +167,7 @@ Organize code, data, and outputs into clearly named folders and files so the pro
 :::
 
 :::{.column width="40%" .center-text}
-![](../x_images/folder_structure.png){width="60%"}
+![](x_images/folder_structure.png){width="60%"}
 :::
 
 :::
