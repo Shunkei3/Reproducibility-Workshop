@@ -119,77 +119,77 @@
   {
     "objectID": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
     "href": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": " Outline",
     "text": "Outline\n\nIntroduction:\n\nWhat is reproducibility?\nCurrent landscape of reproducibility in scientific research\n\nKey components of reproducible research\n\nProject organization\nReproducible workflow\nDocumentation\nSharing\n\nExample: Reproducible project\n\n\n\n\n\n Goal of today’s session\n\n\n\nUnderstand the core principles of reproducible research.\nBecome familiar with tools and resources for implementation."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#what-is-reproducibility",
     "href": "contents/Day1/day1-slides.html#what-is-reproducibility",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "What is Reproducibility?",
     "text": "What is Reproducibility?\n\n\n\nDefinition: Reproducibility\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator(Cacioppo et al. 2015).\n\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#current-landscape",
     "href": "contents/Day1/day1-slides.html#current-landscape",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Current landscape of reproducibility in scientific research",
     "text": "Current landscape of reproducibility in scientific research\n\nReproducibility has always been a core scientific principle. However, it has become a growing interest in enhancing transparency and reproducibility in scientific research in recent years.\nWhy now?\n\nIncreasingly complex data and code pipelines (National Academies of Sciences et al. 2019)\nHidden steps and undocumented decisions (Gentzkow and Shapiro 2014)\nIncentives favor speed over transparency (Franco et al. 2014)\n\nImplications\n\nResults are hard to verify\nReproducibility often fails even when data and code are available (Chang and Li 2018)\n\nCredibility of research is at risk (Baker 2016)\n\n\nSo, what should we do to make our research reproducible?\n\n\n\nReproducibility is not a new concern. It is a longstanding norm of science.\nThe reason might be because that research became more computationally complex.\nAEA: Data and Code Availability Policy (https://www.aeaweb.org/journals/data/data-code-policy?utm_source=chatgpt.com)"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#key-components",
     "href": "contents/Day1/day1-slides.html#key-components",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Key components of reproducible research",
     "text": "Key components of reproducible research\n\n\nBasics(i) Project organization(ii) Reproducible workflow(iii) Documentation\n\n\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n\n The following components improve the quality of reproducibility:\n\n\n(i) Project organization\n\n\n(ii) Reproducible workflow \n\n(iii) Documentation \n\n\n\n\n\n\n\n\nImportant\n\n\nOrganize code, data, and outputs into clearly named folders and files so the project structure is easy to navigate.\n\n\n\n\n\nFor example\n\nKeep raw data unchanged → Data/Raw/\nStore cleaned data separately → Data/Processed/\nUse a project-based workflow (e.g., create &lt;ProjectName&gt;.Rproj file)\n\nAvoid absolute file paths\nUse relative paths (e.g., here::here() in R)\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nA reproducible workflow means that the entire process—from raw data to final results—is executed through code in a clear, automated, and traceable way, with no hidden steps.\n\n\n\nExample workflow\n\n01-clean-data.qmd\n02-construct-variables.qmd\n03-run-analysis.qmd\n04-generate-figures-tables.qmd\nmain.qmd (runs everything in order)\n\nRunning main.qmd reproduces all results from raw data.\n\nNOTE: Manual edits should be minimized. If unavoidable, they should be clearly documented so others can follow the same process.\n\n\n\n\n\n\nImportant\n\n\nIt is essential to provide comprehensive documentation of the data sources, methods, and reproduction steps. This saves time and enhances clarity for others who want to reproduce the research.\n\n\n\n\nFor example\n\nLook at the README file of some github repositories to see how they document the data sources, methods, and reproduction steps. For example, you can look at the README file of the Justin’s github repository (here).\n\n\n\n\n\n\n\nThe minimum rule ensures that a project is reproducible in principle. However, this alone does not guarantee that the research is easy to understand, verify, or reuse. High-quality reproducibility requires additional structure and clarity.\nOrganizing the project folder is the easiest one to implement, and you can do this from today.\nThe third component, which is comprehensive documentation, is also relatively easy to implement. You can start by writing a README file that explains the data sources, methods, and reproduction steps. For example, you can look at the README file of the Justin’s github repository.\nThe second component, which is streamlined code, may require more time and effort to implement. This is the focus of this workshop, and I’m going to introduce some tools and strategies to help you achieve this."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#iv-sharing-your-project",
     "href": "contents/Day1/day1-slides.html#iv-sharing-your-project",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "(iv) Sharing your project",
     "text": "(iv) Sharing your project\nOf course, reproducibility also requires sharing your materials in a way that others can access and use them.\n\n\n\nImportant\n\n\nA reproducible project should be publicly accessible, version-controlled, and citable.\n\n\n\nCode & project sharing\n\nGithub repositories\n\nData sharing (with DOI)\n\nZendo (website), it can be integrated with Github\nDataverse (website)\nMendeley Data (website)\n\n\n\n\n\nNote\n\n\nYou can share code and data together on data repositories, but in many cases, **Github is used for development, while data repositories are used for placing data.\n\n\n\n\n\n\nGithub is designed for code, version tracking, collaboration, but they are not ideal for uploading large datasets. Data repositories like Dataverse or Zendo are designed for stable data storage, archival purposes, and citation.\nA DOI (Digital Object Identifier) is a standardized identifier used to uniquely identify and permanently link to digital research outputs like journal articles and datasets."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
     "href": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Benefits of reproducibility",
     "text": "Benefits of reproducibility\nReproducibility practices (e.g., organized project folder, streamlined code, and comprehensive documentation) benefit you and your team members as well as the scientific community.\n\nFor you and your team:\n\nFaster debugging and iteration\n\nEasier collaboration and handoffs\n\nReduced risk of errors\n\nFor the scientific community:\n\nTransparent and verifiable results\n\nLower replication costs\n\nGreater credibility of research findings"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",
     "href": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Take a look at an example of a reproducible project",
     "text": "Take a look at an example of a reproducible project\nWe will go through an example of a reproducible project to see how the key components of reproducibility are implemented in practice.\n\nPlease download the project material by cloning the following github repository:  Download files\n\n\nYou can clone the repository from:\n\nCopy the URL of the repository: https://github.com/Shunkei3/Sample-Reproducible-Project.git\nRstudio: File &gt; New Project &gt; Version Control &gt; Git &gt; paste the URL of the repository\nVScode: View &gt; Command Palette &gt; Git: Clone &gt; paste the URL of the repository"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#example-reproducible-project",
     "href": "contents/Day1/day1-slides.html#example-reproducible-project",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Example reproducible project",
     "text": "Example reproducible project\n\n\n\nCheck\n\n\n\nTake a look at the README.md file.\nHow are the project folder organized?\nTake a look at a code file. Why do you think code is written in .qmd file instead of .R file?\nCheck out the writing folder and see how the tables and figures are inserted into the report.\nCheck out the main.qmd file and see how the whole workflow is executed in an automated and traceable way.\n\n\n\n\n\nDo you have any suggestions on how the project can be improved in terms of reproducibility?"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#key-takeaways",
     "href": "contents/Day1/day1-slides.html#key-takeaways",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Key takeaways",
     "text": "Key takeaways\n\n\n\nImportant\n\n\nReproducible research means that anyone can go from raw data to final results using only the materials you provide.\n\n\n\n\nCore principles\n\nOrganized your project directory clearly\n\n→ Use structured folders and consistent file names.\n\nAutomate your workflow\n\n→ Generate all results through code (no hidden steps).\n\nDocument everything\n\n→ Explain data, and methods, and reproduction steps.\n\nMake your work accessible\n\n→ Share code and data on public repositories in a stable and citable way."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#next-session-practical-tools-for-reproducibility",
     "href": "contents/Day1/day1-slides.html#next-session-practical-tools-for-reproducibility",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Next Session: Practical tools for reproducibility",
     "text": "Next Session: Practical tools for reproducibility\nWe will cover the practical tools in more detail in the next session! Do you have any suggestion on what tools you want to learn in the next session?"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#references",
     "href": "contents/Day1/day1-slides.html#references",
-    "title": "Day 1: Introduction to Reproducibility in Scientific Research",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "References",
     "text": "References\n\n\n\n\nBaker, Monya. 2016. 1,500 Scientists Lift the Lid on Reproducibility.\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nChang, Andrew C, and Phillip Li. 2018. “Is Economics Research Replicable? Sixty Published Papers from Thirteen Journals Say ‘Often Not’.” Critical Finance Review 7: 1–25.\n\n\nFranco, Annie, Neil Malhotra, and Gabor Simonovits. 2014. “Publication Bias in the Social Sciences: Unlocking the File Drawer.” Science 345 (6203): 1502–5.\n\n\nGentzkow, Matthew, and Jesse M Shapiro. 2014. Code and Data for the Social Sciences: A Practitioner’s Guide. Working Paper, University of Chicago.\n\n\nNational Academies of Sciences, Medicine, Policy, et al. 2019. Reproducibility and Replicability in Science. National Academies Press."
   }
