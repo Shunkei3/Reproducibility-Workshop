@@ -163,14 +163,14 @@
     "href": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Take a look at an example of a reproducible project",
-    "text": "Take a look at an example of a reproducible project\nWe will go through an example of a reproducible project to see how the key components of reproducibility are implemented in practice.\n\nPlease download the project material by cloning the following github repository:  Download files\n\n\nYou can clone the repository from:\n\nCopy the URL of the repository: https://github.com/Shunkei3/Sample-Reproducible-Project.git\nRstudio: File &gt; New Project &gt; Version Control &gt; Git &gt; paste the URL of the repository\nVScode: View &gt; Command Palette &gt; Git: Clone &gt; paste the URL of the repository"
+    "text": "Take a look at an example of a reproducible project\nWe will go through an example of a reproducible project to see how the key components of reproducibility are implemented in practice.\n\nPlease download the project material by cloning the following github repository:  Download files\n\n\nYou can clone the repository by:\n\nCopy the URL of the repository: https://github.com/Shunkei3/Sample-Reproducible-Project.git\nRstudio: File &gt; New Project &gt; Version Control &gt; Git &gt; paste the URL of the repository\nVScode: View &gt; Command Palette &gt; Git: Clone &gt; paste the URL of the repository"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#example-reproducible-project",
     "href": "contents/Day1/day1-slides.html#example-reproducible-project",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Example reproducible project",
-    "text": "Example reproducible project\n\n\n\nCheck\n\n\n\nTake a look at the README.md file.\nHow are the project folder organized?\nTake a look at a code file. Why do you think code is written in .qmd file instead of .R file?\nCheck out the writing folder and see how the tables and figures are inserted into the report.\nCheck out the main.qmd file and see how the whole workflow is executed in an automated and traceable way.\n\n\n\n\n\nDo you have any suggestions on how the project can be improved in terms of reproducibility?"
+    "text": "Example reproducible project\n\n\n\nCheck\n\n\n\nREADME.md → How is the project is described?\nProject folder → How are data, code, and outputs organized?\nCode files → Why use .qmd files instead of .R files?\nManuscript (writing/manuscript_to_pdf.qmd) → How are tables and figures generated and included?\nWorkflow (main.qmd) → How is the entire project reproduced?\n\n\n\n\n\nDo you have any suggestions on how the project can be improved in terms of reproducibility?"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#key-takeaways",
@@ -184,7 +184,7 @@
     "href": "contents/Day1/day1-slides.html#next-session-practical-tools-for-reproducibility",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Next Session: Practical tools for reproducibility",
-    "text": "Next Session: Practical tools for reproducibility\nWe will cover the practical tools in more detail in the next session! Do you have any suggestion on what tools you want to learn in the next session?"
+    "text": "Next Session: Practical tools for reproducibility\nWe will cover the practical tools in more detail in the next session!\nDo you have any suggestion on what tools you want to learn in the next session?"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#references",
