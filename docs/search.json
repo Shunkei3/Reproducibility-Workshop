@@ -44,7 +44,7 @@
     "href": "contents/Day1/day1.html",
     "title": "Session 1: Overview of Reproducibility Practices in Scientific Research",
     "section": "",
-    "text": "Summary\nIn this session, we will review the key components of reproducibility in scientific research and experience the reproducible workflow with an example project. We will cover three main topics: (i) project organization, (ii) reproducible workflow, and (iii) documentation. By the end of this session, you will have a better understanding of the core practices for reproducibility in scientific research and how to apply them in your own research projects.\n\n\nSection\n\nIntroduction to reproducibility\nWorkflow",
+    "text": "Summary\nIn this session, we will review the key components of reproducibility in scientific research and experience the reproducible workflow with an example project. We will cover three main topics: (i) project organization, (ii) reproducible workflow, and (iii) documentation. By the end of this session, you will have a better understanding of the core practices for reproducibility in scientific research and how to apply them in your own research projects.",
     "crumbs": [
       "Workshop materials",
       "Session 1"
