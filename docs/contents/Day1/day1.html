@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Day 1: Introduction to Reproducibility in Economics – Reproducibility rules in economics</title>
+<title>Session 1: Overview of Reproducibility Practices in Scientific Research – Reproducibility rules in economics</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9950904385ca9623f92b8dc20238669d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-8a29172ffebd2f12c4e194988e704a51.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,21 +85,9 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Reproducibility rules in economics</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/Shunkei3/Reproducibility-Workshop"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+        <div class="quarto-navbar-tools tools-end">
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -104,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Workshop materials</a></li><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Day 1</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Workshop materials</a></li><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Session 1</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -142,20 +133,33 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../contents/Day1/day1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Day 1</span></a>
+ <span class="menu-text">Session 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../contents/Day2/day2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2</span></a>
+ <span class="menu-text">Session 2</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Bonus materials</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendix</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/Appendix1/how-to-radian.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to use R on VS Code</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
@@ -167,30 +171,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-words" id="toc-key-words" class="nav-link active" data-scroll-target="#key-words">Key words:</a></li>
-  <li><a href="#key-topics" id="toc-key-topics" class="nav-link" data-scroll-target="#key-topics">Key topics:</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">Section</a>
-  <ul class="collapse">
-  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a></li>
-  </ul></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a>
-  <ul class="collapse">
-  <li><a href="#increasing-importance-of-reproducibility-in-scientific-research" id="toc-increasing-importance-of-reproducibility-in-scientific-research" class="nav-link" data-scroll-target="#increasing-importance-of-reproducibility-in-scientific-research">Increasing importance of reproducibility in scientific research</a></li>
-  <li><a href="#reproducibility-vs-replicability" id="toc-reproducibility-vs-replicability" class="nav-link" data-scroll-target="#reproducibility-vs-replicability">Reproducibility vs Replicability</a></li>
-  <li><a href="#how-can-we-achieve-reproducibility-in-our-research" id="toc-how-can-we-achieve-reproducibility-in-our-research" class="nav-link" data-scroll-target="#how-can-we-achieve-reproducibility-in-our-research">How can we achieve reproducibility in our research?</a></li>
-  <li><a href="#characteristics-of-high-quality-reproducible-research" id="toc-characteristics-of-high-quality-reproducible-research" class="nav-link" data-scroll-target="#characteristics-of-high-quality-reproducible-research">Characteristics of high-quality reproducible research</a></li>
-  <li><a href="#agenda-for-this-workshop" id="toc-agenda-for-this-workshop" class="nav-link" data-scroll-target="#agenda-for-this-workshop">Agenda for this workshop</a></li>
-  </ul></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">Section</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Workshop materials</a></li><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Day 1</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Workshop materials</a></li><li class="breadcrumb-item"><a href="../../contents/Day1/day1.html">Session 1</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Day 1: Introduction to Reproducibility in Economics</h1>
+<h1 class="title">Session 1: Overview of Reproducibility Practices in Scientific Research</h1>
 </div>
 
 
@@ -207,15 +198,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="key-words" class="level1">
-<h1>Key words:</h1>
-<ul>
-<li>principles of research trnasparency and reproducibility in economics</li>
-<li>robustness of scientifit research</li>
-</ul>
-</section>
-<section id="key-topics" class="level1">
-<h1>Key topics:</h1>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>In this session, we will review the key components of reproducibility in scientific research and experience the reproducible workflow with an example project. We will cover three main topics: (i) project organization, (ii) reproducible workflow, and (iii) documentation. By the end of this session, you will have a better understanding of the core practices for reproducibility in scientific research and how to apply them in your own research projects.</p>
 </section>
 <section id="section" class="level1">
 <h1>Section</h1>
@@ -224,113 +209,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Workflow</p></li>
 <li></li>
 </ul>
-<section id="workflow" class="level2">
-<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
-<ul>
-<li>Zotero for reference management</li>
-<li>Quarto for scientific report
-<ul>
-<li>How to insert figures and tables created by R</li>
-<li>how to insert citations</li>
-<li>spell checker (Code Spell Checker extension)</li>
-</ul></li>
-<li>Git for code management</li>
-</ul>
-</section>
-</section>
-<section id="prerequisites" class="level1">
-<h1>Prerequisites</h1>
-<ul>
-<li>R and R studio installed on your laptop.</li>
-<li>Desktop Zotero app installed on your laptop. (download from <a href="https://www.zotero.org/download/">here</a>)
-<ul>
-<li>Also, install the Zotero Connector extension for your web browser (e.g., Chrome, Firefox, Edge, etc.). This allows you to save references directly from your browser to your Zotero library.</li>
-</ul></li>
-<li></li>
-</ul>
-</section>
-<section id="motivation" class="level1">
-<h1>Motivation</h1>
-<section id="increasing-importance-of-reproducibility-in-scientific-research" class="level2">
-<h2 class="anchored" data-anchor-id="increasing-importance-of-reproducibility-in-scientific-research">Increasing importance of reproducibility in scientific research</h2>
-<p>For example,</p>
-<ul>
-<li><span class="citation" data-cites="Vilhuber2020">@Vilhuber2020</span></li>
-<li><span class="citation" data-cites="Cacioppo.etal2015">@Cacioppo.etal2015</span></li>
-</ul>
-</section>
-<section id="reproducibility-vs-replicability" class="level2">
-<h2 class="anchored" data-anchor-id="reproducibility-vs-replicability">Reproducibility vs Replicability</h2>
-<p>Here are the definitions of reproducibility and replicability from <span class="citation" data-cites="Cacioppo.etal2015">@Cacioppo.etal2015</span>:</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Definitions: Reproducibility
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.</em></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Definitions: Replicability
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>A research study is <strong>replicable</strong> if other teams reach the same conclusion by applying the same procedure to the difference materials (e.g., data).</em></p>
-</div>
-</div>
-<div class="note">
-<ul>
-<li></li>
-</ul>
-</div>
-</section>
-<section id="how-can-we-achieve-reproducibility-in-our-research" class="level2">
-<h2 class="anchored" data-anchor-id="how-can-we-achieve-reproducibility-in-our-research">How can we achieve reproducibility in our research?</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rule
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Every single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.</p>
-</div>
-</div>
-</section>
-<section id="characteristics-of-high-quality-reproducible-research" class="level2">
-<h2 class="anchored" data-anchor-id="characteristics-of-high-quality-reproducible-research">Characteristics of high-quality reproducible research</h2>
-<!-- Even if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics: -->
-<p><strong>Organized Project Folder</strong></p>
-<p>A well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.</p>
-<p><strong>Streamlined Code</strong></p>
-<p>Workflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.</p>
-<p><strong>Comprehensive Documentation</strong></p>
-<p>Documentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research.</p>
-<p><br></p>
-<p>Reproducibility benefits you and your team members as well as the scientific community.</p>
-<div class="note">
-<p>A project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:</p>
-</div>
-</section>
-<section id="agenda-for-this-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="agenda-for-this-workshop">Agenda for this workshop</h2>
-<p>For the rest of the workshop, we will cover how to</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -385,13 +265,14 @@ Rule
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

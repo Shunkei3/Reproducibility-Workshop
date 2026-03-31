@@ -10,9 +10,9 @@ website:
   description: "A website for the Reproducibility Workshop at the Applied Economics Department of the University of Minnesota, 2026."
   navbar:
     background: primary
-    right: 
-      - icon: github
-        href: https://github.com/Shunkei3/Reproducibility-Workshop
+    # right: 
+    #   - icon: github
+    #     href: https://github.com/Shunkei3/Reproducibility-Workshop
   sidebar:
     style: "docked"
     search: true
@@ -22,12 +22,14 @@ website:
         href: contents/index.qmd
       - section: "Workshop materials"
         contents:
-          - text: Day 1
+          - text: Session 1
             href: contents/Day1/day1.qmd
-          - text: Day 2
+          - text: Session 2
             href: contents/Day2/day2.qmd
-      - section: "Bonus materials"
+      - section: "Appendix"
         contents:
+          - text: How to use R on VS Code
+            href: contents/Appendix1/how-to-radian.qmd
 
 
 

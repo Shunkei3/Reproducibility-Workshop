@@ -29,8 +29,12 @@ $presentation-title-slide-text-align: left;
 // Block code
 $monokai-bg: #2e3440;
 
+// Color variables 
 :root {
   --light-maroon: #{$light-maroon};
+}
+:root {
+  --red: #{$red};
 }
 
 /*-- scss:rules --*/
@@ -49,7 +53,6 @@ a[aria-selected="true"]{
 a:hover {
   background-color: $light-yellow;
 }
-
 
 // Header ----------------------------
 
@@ -76,11 +79,11 @@ a:hover {
 
 // call-out box configurations ----------------------------
 .reveal .callout.callout-style-default div.callout-title {
-  font-size: 1.8rem !important;
+  font-size: 1.9rem !important;
 }
 
 .reveal .callout.callout-style-default div.callout-content {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
 .content-box-blue {
@@ -254,3 +257,4 @@ div.qwebr-output-code-area pre {
   text-align: left;
   color: #666;
 }
+

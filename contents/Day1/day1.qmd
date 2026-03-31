@@ -1,13 +1,12 @@
 ---
-title: "Day 1: Introduction to Reproducibility in Economics"
+title: "Session 1: Overview of Reproducibility Practices in Scientific Research"
 ---
 
-# Key words:
-+ principles of research trnasparency and reproducibility in economics
-+ robustness of scientifit research 
+# Summary
+
+In this session, we will review the key components of reproducibility in scientific research and experience the reproducible workflow with an example project. We will cover three main topics: (i) project organization, (ii) reproducible workflow, and (iii) documentation. By the end of this session, you will have a better understanding of the core practices for reproducibility in scientific research and how to apply them in your own research projects.
 
 
-# Key topics:
 
 # Section
 + Introduction to reproducibility 
@@ -15,85 +14,3 @@ title: "Day 1: Introduction to Reproducibility in Economics"
 + Workflow
 
 + 
-
-## Workflow
-
-+ Zotero for reference management
-+ Quarto for scientific report
-  + How to insert figures and tables created by R
-  + how to insert citations
-  + spell checker (Code Spell Checker extension)
-+ Git for code management
-
-# Prerequisites
-+ R and R studio installed on your laptop.
-+ Desktop Zotero app installed on your laptop. (download from [here](https://www.zotero.org/download/))
-  + Also, install the Zotero Connector extension for your web browser (e.g., Chrome, Firefox, Edge, etc.). This allows you to save references directly from your browser to your Zotero library.
-
-+  
-
-
-# Motivation
-
-
-For example, 
-
-+ @Vilhuber2020
-+ @Cacioppo.etal2015
-
-
-## Reproducibility vs Replicability
-
-Here are the definitions of reproducibility and replicability from @Cacioppo.etal2015:
-
-:::{.callout-note}
-## Definitions: Reproducibility
-*Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.*
-:::
-
-:::{.callout-note}
-## Definitions: Replicability
-*A research study is **replicable** if other teams reach the same conclusion by applying the same procedure to the difference materials (e.g., data).*
-:::
-
-:::{.note}
-+ 
-:::
-
-
-## How can we achieve reproducibility in our research?
-
-::: {.callout-note}
-## Rule
-Every single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.
-:::
-
-## Characteristics of high-quality reproducible research
-
-<!-- Even if a project meets the minimum requirements for reproducibility, it may still be considered low-quality if reproducing it requires excessive time or resources. On the other hand, a high-quality reproducible project demonstrates the following characteristics: -->
-
-**Organized Project Folder**
-
-A well-structured project folder with clear organization of data, code, and documentation files makes it easier for others to navigate and understand the research workflow.
-
-**Streamlined Code**
-
-Workflows are automated through clearly annotated programs, making it easier for others to understand the replication process and improving the transparency of the research.
-
-
-**Comprehensive Documentation**
-
-Documentation of the data sources, methods, and reproduction steps saves time and enhances clarity for others who want to reproduce the research. 
-
-<br>
-
-Reproducibility benefits you and your team members as well as the scientific community.
-
-:::{.note}
-A project can be considered reproducible if the minimum requirements are met. However, it is still low-quality if reproducing it requires excessive time or resources. A high-quality reproducible project, on the other hand, demonstrates the following characteristics:
-:::
-
-
-## Agenda for this workshop
-
-For the rest of the workshop, we will cover how to 

@@ -30,45 +30,24 @@ execute:
 engine: knitr
 ---
 
-## {{< fa list >}} Today's Outline
+## {{< fa list >}} Outline
++ Introduction:
+  + [What is reproducibility?](#what-is-reproducibility)
+  + [Current landscape of reproducibility in scientific research](#current-landscape)
++ [Key components of reproducible research](#key-components)
+  + [Project organization](#project-organization)
+  + [Reproducible workflow](#reproducible-workflow)
+  + [Documentation](#documentation)
+  + [Sharing](#sharing)
++ [Example: Reproducible project](#example-reproducible-project)
 
-+ Motivation: Why, what, and how of reproducibility in scientific research
+<br>
 
-+ Example of a reproducible project
+::: {.callout-important}
+## [{{< fa bullseye >}} Goal of today's session]{style="color:var(--red);"}
 
-
-
-# Motivation: Why Reproducibility Matters in Scientific Research?
-
-
-## Growing Interest in Enhancing Transparency and Reproducibility in Academia
-
-<!-- > ***"One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it"*** --  from the report of "Reproducibility and Replicability in Science" (@NationalAcademiesofSciences.etal2019) -->
-
-Reproducibility has always been a core scientific principle.
-However, it has become a growing concern in modern research.
-
-### **Why now?**
-
-- Increasingly complex data and code pipelines [@NationalAcademiesofSciences.etal2019]
-- Hidden steps and undocumented decisions [@Gentzkow.Shapiro2014]
-- Incentives favor speed over transparency [@Franco.etal2014]  
-
-### **Implications**
-
-- Results are hard to verify 
-- Reproducibility often fails even when data and code are available [@Chang.Li2018]  
-- Credibility of research is at risk [@Baker2016]
-
-### **Takeaway**
-
-+ Reproducibility practices are no longer optional—they are essential.
-
-:::{.notes}
-+ Reproducibility is not a new concern. It is a longstanding norm of science. 
-+ The reason might be because that research became more computationally complex.
-
-+ AEA: Data and Code Availability Policy (https://www.aeaweb.org/journals/data/data-code-policy?utm_source=chatgpt.com)
++ Understand the core principles of reproducible research.
++ Become familiar with tools and resources for implementation.
 :::
 
 
@@ -92,17 +71,45 @@ In essence, reproducibility asks:
 
 ["**Can another researcher go from raw data to final results using only the materials you provide?**"]{style="color:var(--light-maroon);"}
 
-<br>
-
-So, what should we do to make our research reproducible?
 
 :::{.notes}
 + Reproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)
-
 :::
 
 
-## Key Components of Reproducible Research
+## Current landscape of reproducibility in scientific research {#current-landscape}
+
+<!-- > ***"One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produce it"*** --  from the report of "Reproducibility and Replicability in Science" (@NationalAcademiesofSciences.etal2019) -->
+
+Reproducibility has always been a core scientific principle.
+However, it has become a growing interest in enhancing transparency and reproducibility in scientific research in recent years.
+
+### **Why now?**
+
+- Increasingly complex data and code pipelines [@NationalAcademiesofSciences.etal2019]
+- Hidden steps and undocumented decisions [@Gentzkow.Shapiro2014]
+- Incentives favor speed over transparency [@Franco.etal2014]  
+
+### **Implications**
+
+- Results are hard to verify 
+- Reproducibility often fails even when data and code are available [@Chang.Li2018]  
+- Credibility of research is at risk [@Baker2016]
+
+:::{.fragment}
+So, what should we do to make our research reproducible?
+:::
+
+:::{.notes}
++ Reproducibility is not a new concern. It is a longstanding norm of science. 
++ The reason might be because that research became more computationally complex.
+
++ AEA: Data and Code Availability Policy (https://www.aeaweb.org/journals/data/data-code-policy?utm_source=chatgpt.com)
+:::
+
+
+
+## Key components of reproducible research {#key-components}
 
 <!-- Start of panel-tabset -->
 ::: {.panel-tabset}
@@ -112,44 +119,91 @@ So, what should we do to make our research reproducible?
 ## Minimum Rule
 Every single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.
 :::
+
+<!-- :::{.fragment} -->
 <br>
-To achieve high-quality reproducibility in practice, the following components are essential:
+The following components improve the quality of reproducibility:
 
 ::: {.columns}
 
 ::: {.column width="25%" .center-text}
-**(i) Organized Project Folder** 
+**(i) Project organization** 
 
-![](../x_images/folder_structure.png){width="65%"}
+![](x_images/folder_structure.png){width="65%"}
 :::
 
 ::: {.column width="40%" .center-text}
-**(ii) Streamlined Code**
-![](../x_images/streamlined_code.png){width="150%"}
+**(ii) Reproducible workflow**
+![](x_images/streamlined_code.png){width="150%"}
 :::
 
 ::: {.column width="35%" .center-text}
-**(iii) Comprehensive Documentation**
-![](../x_images/documentation.png){width="100%"}
-
+**(iii) Documentation**
+![](x_images/documentation.png){width="100%"}
 :::
 
+<!-- ::: -->
+
+:::
+<!-- End of panel-tabset -->
+
+### (i) Project organization {#project-organization}
+
+::: {.callout-important}
+Organize code, data, and outputs into clearly named folders and files so the project structure is easy to navigate.
 :::
 
-### File organization
+:::{.columns}
 
-Place code files, data files, and documentation files in the right folders with clear names
+::: {.column width="60%"}
 
 [**For example**]{style="color:var(--light-maroon);"}
 
-+ Data/Raw folder should contain the original data files, and Data/Processed folder should contain the cleaned data files.
-+ 
++ Keep raw data unchanged &rarr; `Data/Raw/`
++ Store cleaned data separately &rarr; `Data/Processed/`
++ Use a project-based workflow (e.g., create `<ProjectName>.Rproj` file)
+  + Avoid absolute file paths
+  + Use relative paths (e.g., `here::here()` in R)
+:::
 
-### Streamlined code
+:::{.column width="40%" .center-text}
+![](../x_images/folder_structure.png){width="60%"}
+:::
 
-Automate
+:::
 
-### Comprehensive documentation
+
+### (ii) Reproducible workflow
+
+::: {.callout-important}
+A reproducible workflow means that the entire process—from raw data to final results—is executed through code in a clear, automated, and traceable way, with no hidden steps.
+:::
+
+[**Example workflow**]{style="color:var(--light-maroon);"}
+
++ `01-clean-data.qmd`
++ `02-construct-variables.qmd`
++ `03-run-analysis.qmd`
++ `04-generate-figures-tables.qmd`
++ `main.qmd` (runs everything in order)
+
+Running `main.qmd` reproduces all results from raw data.
+
++ **NOTE**: Manual edits should be minimized. If unavoidable, they should be clearly documented so others can follow the same process.
+
+
+### (iii) Documentation
+
+::: {.callout-important}
+It is essential to provide comprehensive documentation of the data sources, methods, and reproduction steps. This saves time and enhances clarity for others who want to reproduce the research. 
+:::
+
+<br>
+
+[**For example**]{style="color:var(--light-maroon);"}
+
++ Look at the README file of some github repositories to see how they document the data sources, methods, and reproduction steps. For example, you can look at the README file of the Justin's github repository ([here](https://github.com/jandrewjohnson/hazelbean_dev)).
+
 
 :::
 <!-- End of panel-tabset -->
@@ -163,6 +217,36 @@ Automate
 
 + The second component, which is streamlined code, may require more time and effort to implement. This is the focus of this workshop, and I'm going to introduce some tools and strategies to help you achieve this.
 :::
+
+## (iv) Sharing your project
+
+Of course, reproducibility also requires sharing your materials in a way that others can access and use them. 
+
+::: {.callout-important}
+A reproducible project should be publicly accessible, version-controlled, and citable.
+:::
+
+### Code & project sharing
+
++ **Github** repositories
+
+### Data sharing (with DOI)
+
++ **Zendo** ([website](https://zenodo.org/)), it can be integrated with Github 
++ **Dataverse** ([website](https://guides.dataverse.org/en/latest/quickstart/what-is-dataverse.html))
++ **Mendeley Data** ([website](https://data.mendeley.com/))
+
+:::{.fragment}
+::: {.callout-note}
+You can share code and data together on data repositories, but in many cases, **Github is used for development, while data repositories are used for placing data.
+:::
+:::
+
+:::{.notes}
++ Github is designed for code, version tracking, collaboration, but they are not ideal for uploading large datasets. Data repositories like Dataverse or Zendo are designed for stable data storage, archival purposes, and citation.
++ A DOI (Digital Object Identifier) is a standardized identifier used to uniquely identify and permanently link to digital research outputs like journal articles and datasets.
+:::
+
 
 
 ## Benefits of reproducibility {.center}
@@ -188,17 +272,68 @@ Reproducibility practices (e.g., organized project folder, streamlined code, and
 :::
 
 
+
+
 ## Take a look at an example of a reproducible project {.center}
 
 We will go through an example of a reproducible project to see how the key components of reproducibility are implemented in practice.
 
-**Download the project material from [here](https://www.dropbox.com/scl/fo/tjjib9q1xiu1okrucc1cc/ANGfjb2Bc5O6peuc0fzBwvQ?rlkey=kfukrx0krx1bigiadcuy4kxw3&st=5jsibzo1&dl=0)**
+<br>
+
+**Please download the project material by cloning the following github repository**: [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project)
+
+<!-- (https://www.dropbox.com/scl/fo/tjjib9q1xiu1okrucc1cc/ANGfjb2Bc5O6peuc0fzBwvQ?rlkey=kfukrx0krx1bigiadcuy4kxw3&st=5jsibzo1&dl=0). -->
+<br>
+
+You can clone the repository from:
+
++ Copy the URL of the repository: https://github.com/Shunkei3/Sample-Reproducible-Project.git
++ Rstudio: File > New Project > Version Control > Git > paste the URL of the repository
++ VScode: View > Command Palette > Git: Clone > paste the URL of the repository
+
+
+
+
+## Example reproducible project {.center}
+
+::: {.callout-tip}
+### Check
++ Take a look at the README.md file.
++ How are the project folder organized?
++ Take a look at a code file. Why do you think code is written in `.qmd` file instead of `.R` file?
++ Check out the `writing` folder and see how the tables and figures are inserted into the report.
++ Check out the `main.qmd` file and see how the whole workflow is executed in an automated and traceable way.
+:::
 
 <br>
 
-::: {.callout-tip}
-## NOTE
-This material is based on the github repository of Prof. Taro Mieno ([here](https://github.com/tmieno2/Sample-Reproducible-Project)), which is created to demonstrate the principles of reproducibility in scientific research in his course at the University of Nebraska-Lincoln. I modified the original material to fit the purpose of this workshop, but the core structure and content are based on his work.
+Do you have any suggestions on how the project can be improved in terms of reproducibility?
+
+
+## Key takeaways
+
+::: {.callout-important}
+Reproducible research means that anyone can go from raw data to final results using only the materials you provide.
 :::
+
+<br>
+
+### Core principles
++ **Organized your project directory clearly**
+  + &rarr; Use structured folders and consistent file names.
+
++ **Automate your workflow**
+  + &rarr; Generate all results through code (no hidden steps).
+
++ **Document everything**
+  + &rarr; Explain data, and methods, and reproduction steps.
+
++ **Make your work accessible**
+  + &rarr; Share code and data on public repositories in a stable and citable way.
+
+## Next Session: Practical tools for reproducibility
+
+We will cover the practical tools in more detail in the next session! Do you have any suggestion on what tools you want to learn in the next session?
+
 
 ## References {visibility="uncounted"}
