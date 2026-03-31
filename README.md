@@ -1,13 +1,14 @@
-# Reproducibility Workshop
+# Reproducibility Workshop at the APEC Student Seminar Series
 
 <!-- This repository contains materials for the Reproducibility Workshop in the APEC Student Seminar Series. 
 
 The workshop materials are available from [here](https://shunkei3.github.io/Reproducibility-Workshop/). -->
 
 ## Link to the workshop materials
-+ Session 1: [Reproducibility Workshop - Part 1](https://shunkei3.github.io/Reproducibility-Workshop/contents/docs/contents/Day1/day1.html)
-+ Session 2: 
-+ Appendix: [Configure VS Code for R](https://shunkei3.github.io/Reproducibility-Workshop/docs/contents/Appendix1/how-to-radian.html)
++ Slides for Part 1: [Reproducibility Workshop - Part 1](https://shunkei3.github.io/Reproducibility-Workshop/contents/Day1/day1-slides.html)
+
++ Slides for Part 2: Reproducibility Workshop - Part 2
++ Appendix: [Configure VS Code for R](https://shunkei3.github.io/Reproducibility-Workshop/how-to-radian-standalone.html)
 
 
 ## Workshop Description
@@ -37,6 +38,6 @@ By completing the workshop, you will be able to
 
 ## Recommended readings
 
-+ [{{< fa book-open >}} Reproducible Research Guide - UC Davis Library](https://ucdavisdatalab.github.io/guide_reproducible_research/chapters/01_principles.html)
++ [Reproducible Research Guide - UC Davis Library](https://ucdavisdatalab.github.io/guide_reproducible_research/chapters/01_principles.html)
 
-+ [{{< fa book-open >}} Data and Code Availability Policy - American Economic Review](https://www.aeaweb.org/journals/data/data-code-policy)
++ [Data and Code Availability Policy - American Economic Review](https://www.aeaweb.org/journals/data/data-code-policy)
