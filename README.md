@@ -2,4 +2,4 @@
 
 This repository contains materials for the Reproducibility Workshop in the APEC Student Seminar Series. 
 
-The workshop materials are available from [here]()
+The workshop materials are available from [here](https://shunkei3.github.io/Reproducibility-Workshop/)
