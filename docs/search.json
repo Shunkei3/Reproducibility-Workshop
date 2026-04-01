@@ -163,7 +163,7 @@
     "href": "contents/Day1/day1-slides.html#benefits-of-reproducibility-practices",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Benefits of reproducibility practices",
-    "text": "Benefits of reproducibility practices\nReproducibility practices (e.g., project organization, reproducible workflow, and detailed documentation) benefit not only the scientific community but also you and your collaborators.\n\nFor you and your team:\n\nEasier to find mistakes and rerun your analysis\nEasier collaboration and handoffs\n\nReduced risk of errors\n\nFor the scientific community:\n\nTransparent and verifiable results\n\nLower replication costs\n\nGreater credibility of research findings"
+    "text": "Benefits of reproducibility practices\nReproducibility practices (e.g., project organization, reproducible workflow, and detailed documentation) benefit not only the scientific community but also you and your collaborators.\n\nFor you and your team:\n\nEasier collaboration and handoffs\nEaser to recall your own work after a long time\nEasier to find mistakes and rerun your analysis\nReduced risk of errors\n\nFor the scientific community:\n\nTransparent and verifiable results\n\nLower replication costs\n\nGreater credibility of research findings"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",

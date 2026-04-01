@@ -266,8 +266,9 @@ Reproducibility practices (e.g., project organization, reproducible workflow, an
 
 ### For you and your team:
 
-- Easier to find mistakes and rerun your analysis
-- Easier collaboration and handoffs  
+- Easier collaboration and handoffs
+- Easer to recall your own work after a long time 
+- Easier to find mistakes and rerun your analysis 
 - Reduced risk of errors  
 
 ### For the scientific community:
