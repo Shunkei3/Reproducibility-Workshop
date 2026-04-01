@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363726f6c6c203e7d7d-workshop-description",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363726f6c6c203e7d7d-workshop-description",
+    "objectID": "contents/index.html#workshop-description",
+    "href": "contents/index.html#workshop-description",
     "title": "Welcome!",
     "section": " Workshop Description",
     "text": "Workshop Description\nThe goal of this workshop is to provide best practices for reproducibility in scientific research, and to expand students’ practical toolbox to accomplish high-quality reproducibility in their research projects. The workshop consists of two sessions. The first session covers foundational practices such as data management, code organization, and documentation standards aligned with leading journals. The goal of the first session is to review the key components of reproducibility and to experience the reproducible workflow with an example project. Built on the foundations of the first session, the second session dives into more detailed applications and advanced workflow strategies. Topics include preparing replication packages, reference management, writing manuscript with Quarto. Together, the sessions provide practical tools to help students ensure their research meets evolving standards in academia.",
@@ -10,8 +10,8 @@
     ]
   },
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e63696c203e7d7d-learning-objectives",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e63696c203e7d7d-learning-objectives",
+    "objectID": "contents/index.html#learning-objectives",
+    "href": "contents/index.html#learning-objectives",
     "title": "Welcome!",
     "section": " Learning Objectives",
     "text": "Learning Objectives\nBy completing the workshop, you will be able to\n\nUnderstand the core practices for reproducibility in scientific research.\nUnderstand the tools and resources available to support reproducibility in research projects.\nApply best practices for reproducibility in your own research projects, including data management, code organization, and documentation standards.",
@@ -20,8 +20,8 @@
     ]
   },
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636c6970626f6172642d6c697374203e7d7d-in-preparation-for-the-workshop",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636c6970626f6172642d6c697374203e7d7d-in-preparation-for-the-workshop",
+    "objectID": "contents/index.html#in-preparation-for-the-workshop",
+    "href": "contents/index.html#in-preparation-for-the-workshop",
     "title": "Welcome!",
     "section": " In preparation for the workshop",
     "text": "In preparation for the workshop\n\nBring your laptop to the class.\nMake sure you have R and R Studio installed on your laptop. To do this, follow the procedure described in this website\nInstall the Desktop Zotero app on your laptop. You can download it from this official website. Also, install the Zotero Connector extension for your web browser (e.g., Chrome, Firefox, Edge, etc.). This allows you to save references directly from your browser to your Zotero library.\nInstall the Quarto CLI on your laptop. You can download it from this official website.",
@@ -30,8 +30,8 @@
     ]
   },
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120617374657269736b203e7d7d-recommended-readings",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120617374657269736b203e7d7d-recommended-readings",
+    "objectID": "contents/index.html#recommended-readings",
+    "href": "contents/index.html#recommended-readings",
     "title": "Welcome!",
     "section": " Recommended readings",
     "text": "Recommended readings\n\n Reproducible Research Guide - UC Davis Library\n Data and Code Availability Policy - American Economic Review",
@@ -117,46 +117,53 @@
     ]
   },
   {
-    "objectID": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
-    "href": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
+    "objectID": "contents/Day1/day1-slides.html#welcome",
+    "href": "contents/Day1/day1-slides.html#welcome",
+    "title": "Part 1: Introduction to Reproducibility in Scientific Research",
+    "section": "Welcome!",
+    "text": "Welcome!\n\nWorkshop on reproducibility in economics (applicable to scientific research more broadly).\nTwo sessions:\n\nPart 1 (today): Introduction\nPart 2 (next session): Practical tools\n\nMaterials:\n\n  https://github.com/Shunkei3/Reproducibility-Workshop \n\n\n\nFeel free to stop me at any time if you have questions or want to share your thoughts."
+  },
+  {
+    "objectID": "contents/Day1/day1-slides.html#outline",
+    "href": "contents/Day1/day1-slides.html#outline",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": " Outline",
-    "text": "Outline\n\nIntroduction:\n\nWhat is reproducibility?\nCurrent landscape of reproducibility in scientific research\n\nKey components of reproducible research\n\nProject organization\nReproducible workflow\nDocumentation\nSharing\n\nExample: Reproducible project\n\n\n\n\n\n Goal of today’s session\n\n\n\nUnderstand the core principles of reproducible research.\nBecome familiar with tools and resources for implementation."
+    "text": "Outline\n\nIntroduction:\n\nWhat is reproducibility?\nCurrent landscape of reproducibility in economics\n\nKey components of reproducible research\n\nProject organization\nReproducible workflow\nDocumentation\nSharing\n\nHands-on experience with example reproducible project\n\n\n\n\n\n Goal of today’s session\n\n\n\nUnderstand the core principles of reproducible research.\nBecome familiar with tools and resources for implementing reproducibility practices through hands-on experience."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#what-is-reproducibility",
     "href": "contents/Day1/day1-slides.html#what-is-reproducibility",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "What is Reproducibility?",
-    "text": "What is Reproducibility?\n\n\n\nDefinition: Reproducibility\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator(Cacioppo et al. 2015).\n\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
+    "text": "What is Reproducibility?\n\n\n\nDefinition: Reproducibility\n\n\nReproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator (Cacioppo et al. 2015).\n\n\n\n\nIn essence, reproducibility asks:\n“Can another researcher go from raw data to final results using only the materials you provide?”\n\n\nReproducing research involves using the original data and code, while replicating research involves new data collection and similar methods used in previous studies, the report says. Even when a study was rigorously conducted according to best practices, correctly analyzed, and transparently reported, it may fail to be replicated. (https://phys.org/news/2019-05-replicability-science.html)"
   },
   {
-    "objectID": "contents/Day1/day1-slides.html#current-landscape",
-    "href": "contents/Day1/day1-slides.html#current-landscape",
+    "objectID": "contents/Day1/day1-slides.html#current-landscape-of-reproducibility-in-economics",
+    "href": "contents/Day1/day1-slides.html#current-landscape-of-reproducibility-in-economics",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
-    "section": "Current landscape of reproducibility in scientific research",
-    "text": "Current landscape of reproducibility in scientific research\n\nReproducibility has always been a core scientific principle. However, it has become a growing interest in enhancing transparency and reproducibility in scientific research in recent years.\nWhy now?\n\nIncreasingly complex data and code pipelines (National Academies of Sciences et al. 2019)\nHidden steps and undocumented decisions (Gentzkow and Shapiro 2014)\nIncentives favor speed over transparency (Franco et al. 2014)\n\nImplications\n\nResults are hard to verify\nReproducibility often fails even when data and code are available (Chang and Li 2018)\n\nCredibility of research is at risk (Baker 2016)\n\n\nSo, what should we do to make our research reproducible?\n\n\n\nReproducibility is not a new concern. It is a longstanding norm of science.\nThe reason might be because that research became more computationally complex.\nAEA: Data and Code Availability Policy (https://www.aeaweb.org/journals/data/data-code-policy?utm_source=chatgpt.com)"
+    "section": "Current landscape of reproducibility in economics",
+    "text": "Current landscape of reproducibility in economics\nReproducibility has always been a core scientific principle (Vilhuber 2020). However, concerns about transparency and reproducibility have increased in recent years.\n\n\nWhy now?\n\nIncreasingly complex data and code pipelines make studies more prone to hidden steps and undocumented decisions\n\n→ difficult to reproduce results (National Academies of Sciences et al. 2019).\n\nRecent replication efforts revealed substantial difficulties in reproducing published results in economics studies (Chang and Li 2018).\n\n\n\nCurrent efforts to improve reproducibility in economics\n\nLeading economics journals (e.g., AER, QJE, Econometrica, JPE) now require data and code submission:\nFor example:\n\n AER: Data and Code Availability Policy\n QJE: Data Policy\n\n\n\n\nSo, what should we do to make our research reproducible in practice?"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#key-components",
     "href": "contents/Day1/day1-slides.html#key-components",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "Key components of reproducible research",
-    "text": "Key components of reproducible research\n\n\nBasics(i) Project organization(ii) Reproducible workflow(iii) Documentation\n\n\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n\n The following components improve the quality of reproducibility:\n\n\n(i) Project organization\n\n\n(ii) Reproducible workflow \n\n(iii) Documentation \n\n\n\n\n\n\n\n\nImportant\n\n\nOrganize code, data, and outputs into clearly named folders and files so the project structure is easy to navigate.\n\n\n\n\n\nFor example\n\nKeep raw data unchanged → Data/Raw/\nStore cleaned data separately → Data/Processed/\nUse a project-based workflow (e.g., create &lt;ProjectName&gt;.Rproj file)\n\nAvoid absolute file paths\nUse relative paths (e.g., here::here() in R)\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nA reproducible workflow means that the entire process—from raw data to final results—is executed through code in a clear, automated, and traceable way, with no hidden steps.\n\n\n\nExample workflow\n\n01-clean-data.qmd\n02-construct-variables.qmd\n03-run-analysis.qmd\n04-generate-figures-tables.qmd\nmain.qmd (runs everything in order)\n\nRunning main.qmd reproduces all results from raw data.\n\nNOTE: Manual edits should be minimized. If unavoidable, they should be clearly documented so others can follow the same process.\n\n\n\n\n\n\nImportant\n\n\nIt is essential to provide comprehensive documentation of the data sources, methods, and reproduction steps. This saves time and enhances clarity for others who want to reproduce the research.\n\n\n\n\nFor example\n\nLook at the README file of some github repositories to see how they document the data sources, methods, and reproduction steps. For example, you can look at the README file of the Justin’s github repository (here).\n\n\n\n\n\n\n\nThe minimum rule ensures that a project is reproducible in principle. However, this alone does not guarantee that the research is easy to understand, verify, or reuse. High-quality reproducibility requires additional structure and clarity.\nOrganizing the project folder is the easiest one to implement, and you can do this from today.\nThe third component, which is comprehensive documentation, is also relatively easy to implement. You can start by writing a README file that explains the data sources, methods, and reproduction steps. For example, you can look at the README file of the Justin’s github repository.\nThe second component, which is streamlined code, may require more time and effort to implement. This is the focus of this workshop, and I’m going to introduce some tools and strategies to help you achieve this."
+    "text": "Key components of reproducible research\n\n\nBasics(i) Project organization(ii) Reproducible workflow(iii) Documentation\n\n\n\n\n\nMinimum Rule\n\n\nEvery single action taken during the entire research process is documented in a way that anybody can follow to implement the same actions (no hidden actions) to produce exactly the same results.\n\n\n\n\n The following practices can improve the quality of reproducibility:\n\n\n(i) Project organization\n\n\n(ii) Reproducible workflow \n\n(iii) Documentation \n\n\n\n\n\n\n\n\nImportant\n\n\nOrganize code, data, and outputs into clearly named folders and files so the project structure is easy to navigate.\n\n\n\n\n\nFor example\n\nKeep raw data unchanged → Data/Raw/\nStore cleaned data separately → Data/Processed/\n\n\n\nHow you manage path also matters:\n\nAvoild absolute paths in code\nUse relative paths (e.g., here::here() in R)\nIf you are Rstudio user, use a project-based workflow (e.g., create &lt;ProjectName&gt;.Rproj file)\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nA reproducible workflow means that the entire process—from raw data to final results—is executed through code in a clear, automated, and traceable way, with no hidden steps.\n\n\n\nExample workflow\n\n01-clean-data.qmd\n02-construct-variables.qmd\n03-run-analysis.qmd\n04-generate-figures-tables.qmd\nmain.qmd (runs everything in order)\n\nmain.qmd runs everything in the correct order and reproduce all results from raw data.\n\nNOTE: Manual edits should be minimized. If unavoidable, they should be clearly documented so others can follow the same process.\n\n\n\n\n\nImportant\n\n\nDocumentation provides clear, step-by-step guidance so that others can understand and reproduce your results without guesswork.\n\n\n\nIt is typically provided in a README file.\n\nWhat should a README include?\n\nOverview of the project\nData sources and how to access them\nSoftware and package requirements\nStep-by-step instructions to reproduce results (e.g., run main.qmd)\n\nExamle README files for real research project\n\n andrewchbaker/JFE_DID - replication materials for Baker et al. (2022), JFE paper\n Global-Policy-Lab/gpl-covid - replication materials for Hsiang et al. (2020), Nature paper"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#iv-sharing-your-project",
     "href": "contents/Day1/day1-slides.html#iv-sharing-your-project",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "(iv) Sharing your project",
-    "text": "(iv) Sharing your project\nOf course, reproducibility also requires sharing your materials in a way that others can access and use them.\n\n\n\nImportant\n\n\nA reproducible project should be publicly accessible, version-controlled, and citable.\n\n\n\nCode & project sharing\n\nGithub repositories\n\nData sharing (with DOI)\n\nZendo (website), it can be integrated with Github\nDataverse (website)\nMendeley Data (website)\n\n\n\n\n\nNote\n\n\nYou can share code and data together on data repositories, but in many cases, **Github is used for development, while data repositories are used for placing data.\n\n\n\n\n\n\nGithub is designed for code, version tracking, collaboration, but they are not ideal for uploading large datasets. Data repositories like Dataverse or Zendo are designed for stable data storage, archival purposes, and citation.\nA DOI (Digital Object Identifier) is a standardized identifier used to uniquely identify and permanently link to digital research outputs like journal articles and datasets."
+    "text": "(iv) Sharing your project\nOf course, reproducibility also requires sharing your materials in a way that others can access and use them.\n\n\n\nImportant\n\n\nA reproducible project should be publicly accessible, version-controlled, and citable.\n\n\n\nCode & project sharing\n\nGithub repositories\n\nData sharing (with DOI)\n\nZendo (website), it can be integrated with Github\nDataverse (website)\nMendeley Data (website)\n\n\n\n\n\nNote\n\n\nYou can share code and data together on data repositories, but in many cases, Github is used for development, while data repositories are used for placing data.\n\n\n\n\n\n\nGithub is designed for code, version tracking, collaboration, but they are not ideal for uploading large datasets. Data repositories like Dataverse or Zendo are designed for stable data storage, archival purposes, and citation.\nA DOI (Digital Object Identifier) is a standardized identifier used to uniquely identify and permanently link to digital research outputs like journal articles and datasets."
   },
   {
-    "objectID": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
-    "href": "contents/Day1/day1-slides.html#benefits-of-reproducibility",
+    "objectID": "contents/Day1/day1-slides.html#benefits-of-reproducibility-practices",
+    "href": "contents/Day1/day1-slides.html#benefits-of-reproducibility-practices",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
-    "section": "Benefits of reproducibility",
-    "text": "Benefits of reproducibility\nReproducibility practices (e.g., project organization, reproducible workflow, and detailed documentation) benefit you and your team members as well as the scientific community.\n\nFor you and your team:\n\nFaster debugging and iteration\n\nEasier collaboration and handoffs\n\nReduced risk of errors\n\nFor the scientific community:\n\nTransparent and verifiable results\n\nLower replication costs\n\nGreater credibility of research findings"
+    "section": "Benefits of reproducibility practices",
+    "text": "Benefits of reproducibility practices\nReproducibility practices (e.g., project organization, reproducible workflow, and detailed documentation) benefit not only the scientific community but also you and your collaborators.\n\nFor you and your team:\n\nEasier to find mistakes and rerun your analysis\nEasier collaboration and handoffs\n\nReduced risk of errors\n\nFor the scientific community:\n\nTransparent and verifiable results\n\nLower replication costs\n\nGreater credibility of research findings"
   },
   {
     "objectID": "contents/Day1/day1-slides.html#take-a-look-at-an-example-of-a-reproducible-project",
@@ -191,6 +198,6 @@
     "href": "contents/Day1/day1-slides.html#references",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "References",
-    "text": "References\n\n\n\n\nBaker, Monya. 2016. 1,500 Scientists Lift the Lid on Reproducibility.\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nChang, Andrew C, and Phillip Li. 2018. “Is Economics Research Replicable? Sixty Published Papers from Thirteen Journals Say ‘Often Not’.” Critical Finance Review 7: 1–25.\n\n\nFranco, Annie, Neil Malhotra, and Gabor Simonovits. 2014. “Publication Bias in the Social Sciences: Unlocking the File Drawer.” Science 345 (6203): 1502–5.\n\n\nGentzkow, Matthew, and Jesse M Shapiro. 2014. Code and Data for the Social Sciences: A Practitioner’s Guide. Working Paper, University of Chicago.\n\n\nNational Academies of Sciences, Medicine, Policy, et al. 2019. Reproducibility and Replicability in Science. National Academies Press."
+    "text": "References\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nChang, Andrew C, and Phillip Li. 2018. “Is Economics Research Replicable? Sixty Published Papers from Thirteen Journals Say ‘Often Not’.” Critical Finance Review 7: 1–25.\n\n\nNational Academies of Sciences, Medicine, Policy, Global Affairs, Board on Research Data, Information, Division on Engineering, Physical Sciences, Committee on Applied, and Theoretical Statistics. 2019. Reproducibility and Replicability in Science. National Academies Press.\n\n\nVilhuber, Lars. 2020. “Reproducibility and Replicability in Economics.” Harvard Data Science Review 2 (4): 1–39."
   }
 ]
