@@ -73,7 +73,7 @@ You should see the Radian console start up, which looks like this:
 
 Next, we need to configure VS Code to use Radian as the default R console.
 
-First, open VS code and find the R extension settings. You can do this by going to the Extensions view (Ctrl+Shift+X on Windows/Linux, Cmd+Shift+X on Mac), searching for "R language", and clicking on the {{< fa gear >}}gear icon on the R extension page. Then, click on "Settings".
+First, open VS code and find the R extension settings. You can do this by going to the Extensions view (Ctrl+Shift+X on Windows/Linux, Cmd+Shift+X on Mac), searching for "R language", and clicking on the <i class="fa-solid fa-gear"></i> gear icon on the R extension page. Then, click on "Settings".
 
 ![How to open R extension settings in VS Code](x_images/r_extension_setting.png){width="80%"}
 
