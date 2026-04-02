@@ -8,7 +8,9 @@ The workshop materials are available from [here](https://shunkei3.github.io/Repr
 + Slides for Part 1: [Reproducibility Workshop - Part 1](https://shunkei3.github.io/Reproducibility-Workshop/contents/Day1/day1-slides.html)
 
 + Slides for Part 2: Reproducibility Workshop - Part 2
-+ Appendix: [Configure VS Code for R](https://shunkei3.github.io/Reproducibility-Workshop/how-to-radian-standalone.html)
++ Appendix: 
+  + [Hands-on materials for Part 1: Example reproducible project](https://github.com/Shunkei3/Sample-Reproducible-Project)
+  + [Configure VS Code for R](https://shunkei3.github.io/Reproducibility-Workshop/how-to-radian-standalone.html)
 
 
 ## Workshop Description
