@@ -9,8 +9,9 @@ The workshop materials are available from [here](https://shunkei3.github.io/Repr
 
 + Slides for Part 2: Reproducibility Workshop - Part 2
 + Appendix: 
-  + [Hands-on materials for Part 1: Example reproducible project](https://github.com/Shunkei3/Sample-Reproducible-Project)
-  + [Configure VS Code for R](https://shunkei3.github.io/Reproducibility-Workshop/how-to-radian-standalone.html)
+  + [Hands-on materials for Part 1: Example reproducible project with R](https://github.com/Shunkei3/Sample-Reproducible-Project)
+  + [Hands-on materials for Part 2: Example reproducible project with Stata](https://github.com/Shunkei3/Sample-Reproducible-Project-stata)
+  + [How to configure VS Code for R?](https://shunkei3.github.io/Reproducibility-Workshop/how-to-radian-standalone.html)
 
 
 ## Workshop Description
