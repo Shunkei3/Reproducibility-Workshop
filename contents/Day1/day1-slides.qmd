@@ -6,7 +6,6 @@ authors:
 format: 
   revealjs:
     html-math-method: mathjax
-    self-contained: true
     embed-resources: true
     slide-number: c/t
     width: 1600
@@ -284,7 +283,7 @@ We will go through an example of a reproducible project to see how the key compo
 
 <br>
 
-**Please download the project material by cloning the following github repository**: [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project){target="_blank"}
+**Download the project material by cloning the following github repository**: [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project){target="_blank"}
 
 <!-- (https://www.dropbox.com/scl/fo/tjjib9q1xiu1okrucc1cc/ANGfjb2Bc5O6peuc0fzBwvQ?rlkey=kfukrx0krx1bigiadcuy4kxw3&st=5jsibzo1&dl=0). -->
 <br>
