@@ -77,7 +77,7 @@ Reproducibility and replicability are often used interchangeably but have distin
 
 **Download the project material by cloning the following github repository**: 
 
-Click [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project){target="_blank"}
+Click [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project-stata){target="_blank"}
 
 <br>
 
