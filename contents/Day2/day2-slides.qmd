@@ -1,5 +1,5 @@
 ---
-title: "Part 2: Practical Tools for Reproducibility in Scientific Research"
+title: "Part 2: How to prepare a reproducible research package?"
 authors:
   - name: Shunkei Kakimoto
     affiliations: "Department of Applied Economics, University of Minnesota"
@@ -19,14 +19,6 @@ format:
     multiplex: false
     title-slide-attributes:
       data-background-color: "#447099"
-execute:
-  warning: false
-  message: false
-  echo: true
-  error: false
-  fig-align: "center"
-  cache: false
-engine: knitr
 ---
 
 ## Materials for the workshop {.center}
@@ -42,7 +34,8 @@ There, you can find the slides for both Part 1 and Part 2, as well as the exampl
 + [Reproducibility and Replicability](#review-reproducibility-and-replicability)
 + [Exercise: Examining an example of a reproducible Stata project](#example-of-a-reproducible-project-stata-version)
 + [Exercise: Evaluating other reproducible research projects in economics {.center}](#evaluating-other-reproducible-research-projects-in-economics)
-+ Bonus: Citation management tools
+  + [Example replication package 1: @Palma2022](#example1)
+  + [Example replication package 2: @Pabilonia.VictoriaVernon2022](#example2)
 
 <br>
 
@@ -92,7 +85,7 @@ Or download the zip file from the repository and extract it to your local direct
 
 &rarr; Go to the repository > Click the green "Code" button > Click "Download ZIP" 
 
-## Overview of the project structure {.center}
+## Overview of the structure of the example project {.center}
 
 This project provides code files to generate the analytical results and a manuscript file to compile the paper.
 
@@ -135,7 +128,7 @@ I am interested in hearing your thoughts on how to improve the workflow with Sta
 
 ## Evaluating other reproducible research projects in economics {.center}
 
-There are several platforms where researchers share public data and code. You can use these repositories as templates when preparing your own reproducible research packages (link attached).
+There are several platforms where researchers share public data and code. **You can use these repositories as templates when preparing your own reproducible research packages (link attached)**.
 
 1. [{{< fa link >}} AEA Data and Code Repository (OpenICPSR)](https://www.icpsr.umich.edu/sites/aea/home) — replication packages for economics journals
 
@@ -149,10 +142,45 @@ There are several platforms where researchers share public data and code. You ca
 
 Let's examine a few real examples and discuss what makes them more or less reproducible.
 
-## Example 1: Kovak, B., & Morrow, P. (2024)
+## Example 1: @Palma2022 - "The Real Effects of Monetary Expansions: Evidence from a Large-scale Historical Experiment." {example1 .center}
+
++ Take a look at the replication package for the study by @Palma2022.
+  + Here is the link to the replication package: [{{< fa link >}} Access the replication package](https://zenodo.org/records/5338362){target="_blank"}.
+  + Here is the link to the original paper: [{{< fa link >}} Access the original paper](https://academic.oup.com/restud/article/89/3/1593/6375454?guestAccessKey=){target="_blank"}.
+
+<br>
+
+::: {.callout-note}
+## Check:
++ Does the README file provide clear instructions on how to reproduce the results?
++ Can you easily tell which code files produce which tables, figures, or results?
++ Overall, do you think another researcher could reproduce the analysis without any difficulties? How would you improve the reproducibility of this project?
+:::
 
 
+## Example 2: @Pabilonia.VictoriaVernon2022 - "Telework, Wages, and Time Use in the United States" {#example2 .center}
 
-## Bonus: Citation management tools
++ Take a look at the replication package for the study by @Pabilonia.VictoriaVernon2022.
+  + Here is the link to the replication package: [{{< fa link >}} Access the replication package](https://zenodo.org/records/7272406){target="_blank"}.
+  + Here is the link to the original paper: [{{< fa link >}} Access the original paper](https://link.springer.com/article/10.1007/s11150-022-09601-1){target="_blank"}.
 
-I 
+<br>
+
+::: {.callout-note}
+## Check:
++ Does the README file provide clear instructions on how to reproduce the results?
++ Can you easily tell which code files produce which tables, figures, or results?
++ Overall, do you think another researcher could reproduce the analysis without any difficulties? How would you improve the reproducibility of this project?
+:::
+
+
+## Key takeaways from this workshop {.center}
+
++ A small amount of extra effort can greatly improve the reproducibility of your research project.
++ Reproducible practices make your work easier to understand, check, and build on.
++ These practices benefit not only the scientific community, but also you and your collaborators.
+
+
+ 
+
+## References {.center}
