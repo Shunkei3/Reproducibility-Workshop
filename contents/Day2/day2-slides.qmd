@@ -37,23 +37,21 @@ All the slides and materials for this workshop are available from this GitHub re
 
 There, you can find the slides for both Part 1 and Part 2, as well as the example reproducible projects with R and Stata that we will be using for the hands-on exercises.
 
-
-
 ## {{< fa list >}} Outline {.center}
 
-+ Reproducibility and Replicability
-+ Examples of reproducible research projects with Stata
-+ Exercise: Reproducibility in practice
-+ Bonus: Citation Management Tools
++ [Reproducibility and Replicability](#review-reproducibility-and-replicability)
++ [Exercise: Examining an example of a reproducible Stata project](#example-of-a-reproducible-project-stata-version)
++ [Exercise: Evaluating other reproducible research projects in economics {.center}](#evaluating-other-reproducible-research-projects-in-economics)
++ Bonus: Citation management tools
 
 <br>
 
 ::: {.callout-important}
 ## [{{< fa bullseye >}} Goal of today's session]{style="color:var(--red);"}
-+ Through the hands-on exercise, you will have a better understanding of how to implement reproducible practices in your research projects.
++ Through these hands-on exercises, you will gain a better understanding of how to implement reproducible practices in your own research projects.
 :::
 
-[**Feel free to stop me at any time if you have questions or want to share your thoughts.**]{style="color:var(--light-maroon);"}
+[Feel free to stop me at any time if you have questions or would like to share your thoughts.]{style="color:var(--light-maroon);"}
 
 ## Review: Reproducibility and Replicability
 
@@ -84,13 +82,32 @@ Reproducibility and replicability are often used interchangeably but have distin
 
 ## Take a look at an example of a reproducible project (Stata version) {.center}
 
-**Download the project material by cloning the following github repository**: Click [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project){target="_blank"}
+**Download the project material by cloning the following github repository**: 
+
+Click [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project){target="_blank"}
 
 <br>
 
 Or download the zip file from the repository and extract it to your local directory.
 
 &rarr; Go to the repository > Click the green "Code" button > Click "Download ZIP" 
+
+## Overview of the project structure {.center}
+
+This project provides code files to generate the analytical results and a manuscript file to compile the paper.
+
+<br>
+
+1. `code/main.do` is the master do-file that runs all the code files in the correct order.
+2. `writing/manuscript_to_pdf.qmd` s the Quarto file that generates the manuscript PDF using the results produced by the code files.
+
+<br>
+
+::: {.callout-caution}
+### Note
+You do not need to use Quarto to write the manuscript. You can use any writing tool you prefer (e.g., R Markdown, LaTeX with Overleaf, or Word).
+:::
+
 
 
 ## Example of a reproducible project (Stata version) {.center}
@@ -116,8 +133,26 @@ Let’s critically evaluate the reproducibility of the project by asking the fol
 I am interested in hearing your thoughts on how to improve the workflow with Stata (e.g., How to manage the path to the working directory).
 :::
 
-## 
+## Evaluating other reproducible research projects in economics {.center}
+
+There are several platforms where researchers share public data and code. You can use these repositories as templates when preparing your own reproducible research packages (link attached).
+
+1. [{{< fa link >}} AEA Data and Code Repository (OpenICPSR)](https://www.icpsr.umich.edu/sites/aea/home) — replication packages for economics journals
+
+2. [{{< fa link >}} Harvard Dataverse](https://dataverse.harvard.edu/) — widely used repository for data and code in economics
+
+3. [{{< fa link >}} Zenodo](https://zenodo.org/) — open repository with many downloadable replication packages
+
+4. [{{< fa link >}} OSF](https://osf.io/search) — open platform for sharing research materials, data, and code
+
+<br>
+
+Let's examine a few real examples and discuss what makes them more or less reproducible.
+
+## Example 1: Kovak, B., & Morrow, P. (2024)
 
 
 
-## 
+## Bonus: Citation management tools
+
+I 

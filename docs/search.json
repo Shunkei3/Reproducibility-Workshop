@@ -51,7 +51,7 @@
     "href": "contents/Day2/day2-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
     "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
     "section": " Outline",
-    "text": "Outline\n\nReproducibility and Replicability\nExamples of reproducible research projects with Stata\nExercise: Reproducibility in practice\nBonus: Citation Management Tools\n\n\n\n\n\n Goal of today’s session\n\n\n\nThrough the hands-on exercise, you will have a better understanding of how to implement reproducible practices in your research projects.\n\n\n\n\nFeel free to stop me at any time if you have questions or want to share your thoughts."
+    "text": "Outline\n\nReproducibility and Replicability\nExercise: Examining an example of a reproducible Stata project\nExercise: Evaluating other reproducible research projects in economics {.center}\nBonus: Citation management tools\n\n\n\n\n\n Goal of today’s session\n\n\n\nThrough these hands-on exercises, you will gain a better understanding of how to implement reproducible practices in your own research projects.\n\n\n\n\nFeel free to stop me at any time if you have questions or would like to share your thoughts."
   },
   {
     "objectID": "contents/Day2/day2-slides.html#review-reproducibility-and-replicability",
@@ -65,7 +65,14 @@
     "href": "contents/Day2/day2-slides.html#take-a-look-at-an-example-of-a-reproducible-project-stata-version",
     "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
     "section": "Take a look at an example of a reproducible project (Stata version)",
-    "text": "Take a look at an example of a reproducible project (Stata version)\nDownload the project material by cloning the following github repository: Click  Download files\n\nOr download the zip file from the repository and extract it to your local directory.\n→ Go to the repository &gt; Click the green “Code” button &gt; Click “Download ZIP”"
+    "text": "Take a look at an example of a reproducible project (Stata version)\nDownload the project material by cloning the following github repository:\nClick  Download files\n\nOr download the zip file from the repository and extract it to your local directory.\n→ Go to the repository &gt; Click the green “Code” button &gt; Click “Download ZIP”"
+  },
+  {
+    "objectID": "contents/Day2/day2-slides.html#overview-of-the-project-structure",
+    "href": "contents/Day2/day2-slides.html#overview-of-the-project-structure",
+    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "section": "Overview of the project structure",
+    "text": "Overview of the project structure\nThis project provides code files to generate the analytical results and a manuscript file to compile the paper.\n\n\ncode/main.do is the master do-file that runs all the code files in the correct order.\nwriting/manuscript_to_pdf.qmd s the Quarto file that generates the manuscript PDF using the results produced by the code files.\n\n\n\n\n\nNote\n\n\nYou do not need to use Quarto to write the manuscript. You can use any writing tool you prefer (e.g., R Markdown, LaTeX with Overleaf, or Word)."
   },
   {
     "objectID": "contents/Day2/day2-slides.html#example-of-a-reproducible-project-stata-version",
@@ -75,11 +82,25 @@
     "text": "Example of a reproducible project (Stata version)\nPretend that the project you just downloaded is someone else’s project that you want to reproduce.\n\nLet’s critically evaluate the reproducibility of the project by asking the following questions:\n\n\n\nCheck:\n\n\n\nLook at README.md. Does it clearly explain how to reproduce the results?\nLook at the project structure. Is it organized in a way that facilitates reproducibility? Can you easily tell which code file corresponds to which part of the analysis?\nLook at the code files. Do they follow the principle of an automated workflow?\nWhat other features of this project do you think are helpful for reproducibility?\n\n\n\n\n\n\n\n\nDiscussion\n\n\nI am interested in hearing your thoughts on how to improve the workflow with Stata (e.g., How to manage the path to the working directory)."
   },
   {
-    "objectID": "contents/Day2/day2-slides.html#section-1",
-    "href": "contents/Day2/day2-slides.html#section-1",
+    "objectID": "contents/Day2/day2-slides.html#evaluating-other-reproducible-research-projects-in-economics",
+    "href": "contents/Day2/day2-slides.html#evaluating-other-reproducible-research-projects-in-economics",
     "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
-    "section": "",
-    "text": "Cacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795."
+    "section": "Evaluating other reproducible research projects in economics",
+    "text": "Evaluating other reproducible research projects in economics\nThere are several platforms where researchers share public data and code. You can use these repositories as templates when preparing your own reproducible research packages (link attached).\n\n AEA Data and Code Repository (OpenICPSR) — replication packages for economics journals\n Harvard Dataverse — widely used repository for data and code in economics\n Zenodo — open repository with many downloadable replication packages\n OSF — open platform for sharing research materials, data, and code\n\n\nLet’s examine a few real examples and discuss what makes them more or less reproducible."
+  },
+  {
+    "objectID": "contents/Day2/day2-slides.html#example-1-kovak-b.-morrow-p.-2024",
+    "href": "contents/Day2/day2-slides.html#example-1-kovak-b.-morrow-p.-2024",
+    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "section": "Example 1: Kovak, B., & Morrow, P. (2024)",
+    "text": "Example 1: Kovak, B., & Morrow, P. (2024)"
+  },
+  {
+    "objectID": "contents/Day2/day2-slides.html#bonus-citation-management-tools",
+    "href": "contents/Day2/day2-slides.html#bonus-citation-management-tools",
+    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "section": "Bonus: Citation management tools",
+    "text": "Bonus: Citation management tools\nI\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#welcome",
