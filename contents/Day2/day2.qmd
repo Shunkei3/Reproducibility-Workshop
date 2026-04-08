@@ -1,0 +1,41 @@
+# Topics:
++ How to implement stata and quarto in a reproducible way
++ How to push code to GitHub
+  + Review 
+
+# Project Structure
+project/
+  data/
+    raw/
+    processed/
+  code/
+    00_master.do
+    01_clean.do
+    02_analysis.do
+    03_figures.do
+    04_tables.do
+  results/
+    figures/
+    tables/
+  writing/
+    manuscript.qmd
+  _quarto.yml
+
+# Steps
+
+1. Create a stata project (.stpr)
+
+Go File > New > Project... 
+
+Save <project_name>.stpr in the directory you want to work in.
+
+This will create the project file and opens the Project Manager panel.
+
+where you want to save your project. 
+
+
+
+
+
+
+

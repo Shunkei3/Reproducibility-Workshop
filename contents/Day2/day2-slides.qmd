@@ -1,0 +1,123 @@
+---
+title: "Part 2: Practical Tools for Reproducibility in Scientific Research"
+authors:
+  - name: Shunkei Kakimoto
+    affiliations: "Department of Applied Economics, University of Minnesota"
+format: 
+  revealjs:
+    html-math-method: mathjax
+    embed-resources: true
+    slide-number: c/t
+    width: 1600
+    height: 1000
+    theme: [simple, ../z_slide_style.scss]
+    css: ../z_extra.css
+    fontsize: 2em
+    bibliography: ../../assets/z_reproducibility.bib
+    callout-icon: false
+    scrollable: true
+    multiplex: false
+    title-slide-attributes:
+      data-background-color: "#447099"
+execute:
+  warning: false
+  message: false
+  echo: true
+  error: false
+  fig-align: "center"
+  cache: false
+engine: knitr
+---
+
+## Materials for the workshop {.center}
+
+All the slides and materials for this workshop are available from this GitHub repository (click the following link to access the repository): [**{{< fa brands github >}} Access the materials**](https://github.com/Shunkei3/Reproducibility-Workshop){target="_blank"}
+
+<br>
+
+There, you can find the slides for both Part 1 and Part 2, as well as the example reproducible projects with R and Stata that we will be using for the hands-on exercises.
+
+
+
+## {{< fa list >}} Outline {.center}
+
++ Reproducibility and Replicability
++ Examples of reproducible research projects with Stata
++ Exercise: Reproducibility in practice
++ Bonus: Citation Management Tools
+
+<br>
+
+::: {.callout-important}
+## [{{< fa bullseye >}} Goal of today's session]{style="color:var(--red);"}
++ Through the hands-on exercise, you will have a better understanding of how to implement reproducible practices in your research projects.
+:::
+
+[**Feel free to stop me at any time if you have questions or want to share your thoughts.**]{style="color:var(--light-maroon);"}
+
+## Review: Reproducibility and Replicability
+
+Reproducibility and replicability are often used interchangeably but have distinct meanings [@Cacioppo.etal2015].
+
+<br>
+
+::: {.callout-note}
+### Definition: Reproducibility
+"Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator."
+:::
+&rarr; Can we get the same results if we use the same data and code? 
+
+<br>
+
+:::{.fragment}
+::: {.callout-note}
+### Definition: Replicability
+"Replicability refers to the ability of a researcher to duplicate the results of a prior study if the same procedures are followed but new data are collected.""
+:::
+&rarr; Can we get the same results if we collect new data and follow the same procedures?
+
+<br>
+
+[**Both reproducibility and replicability are essential for the robustness of scientific research.**]{style="color:var(--light-maroon);"}
+:::
+
+
+## Take a look at an example of a reproducible project (Stata version) {.center}
+
+**Download the project material by cloning the following github repository**: Click [**{{< fa file-arrow-down >}} Download files**](https://github.com/Shunkei3/Sample-Reproducible-Project){target="_blank"}
+
+<br>
+
+Or download the zip file from the repository and extract it to your local directory.
+
+&rarr; Go to the repository > Click the green "Code" button > Click "Download ZIP" 
+
+
+## Example of a reproducible project (Stata version) {.center}
+
+Pretend that the project you just downloaded is someone else’s project that you want to reproduce.
+
+<br>
+
+Let’s critically evaluate the reproducibility of the project by asking the following questions:
+
+::: {.callout-note}
+## Check:
+1. Look at README.md. Does it clearly explain how to reproduce the results?
+2. Look at the project structure. Is it organized in a way that facilitates reproducibility? Can you easily tell which code file corresponds to which part of the analysis?
+3. Look at the code files. Do they follow the principle of an automated workflow?
+4. What other features of this project do you think are helpful for reproducibility?
+:::
+
+<br>
+
+::: {.callout-tip}
+## Discussion
+I am interested in hearing your thoughts on how to improve the workflow with Stata (e.g., How to manage the path to the working directory).
+:::
+
+## 
+
+
+
+## 
