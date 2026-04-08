@@ -44,3 +44,5 @@ By completing the workshop, you will be able to
 + [Reproducible Research Guide - UC Davis Library](https://ucdavisdatalab.github.io/guide_reproducible_research/chapters/01_principles.html)
 
 + [Data and Code Availability Policy - American Economic Review](https://www.aeaweb.org/journals/data/data-code-policy)
+
++ [Preparing your files for verification](https://aeadataeditor.github.io/aea-de-guidance/preparing-for-data-deposit)
