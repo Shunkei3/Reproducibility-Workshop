@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363726f6c6c203e7d7d-workshop-description",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363726f6c6c203e7d7d-workshop-description",
+    "objectID": "contents/index.html#workshop-description",
+    "href": "contents/index.html#workshop-description",
     "title": "Welcome!",
     "section": " Workshop Description",
     "text": "Workshop Description\nThe goal of this workshop is to provide best practices for reproducibility in scientific research, and to expand students’ practical toolbox to accomplish high-quality reproducibility in their research projects. The workshop consists of two sessions. The first session covers foundational practices such as data management, code organization, and documentation standards aligned with leading journals. The goal of the first session is to review the key components of reproducibility and to experience the reproducible workflow with an example project. Built on the foundations of the first session, the second session dives into more detailed applications and advanced workflow strategies. Topics include preparing replication packages, reference management, writing manuscript with Quarto. Together, the sessions provide practical tools to help students ensure their research meets evolving standards in academia.",
@@ -10,8 +10,8 @@
     ]
   },
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e63696c203e7d7d-learning-objectives",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656e63696c203e7d7d-learning-objectives",
+    "objectID": "contents/index.html#learning-objectives",
+    "href": "contents/index.html#learning-objectives",
     "title": "Welcome!",
     "section": " Learning Objectives",
     "text": "Learning Objectives\nBy completing the workshop, you will be able to\n\nUnderstand the core practices for reproducibility in scientific research.\nUnderstand the tools and resources available to support reproducibility in research projects.\nApply best practices for reproducibility in your own research projects, including data management, code organization, and documentation standards.",
@@ -20,8 +20,8 @@
     ]
   },
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636c6970626f6172642d6c697374203e7d7d-in-preparation-for-the-workshop",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636c6970626f6172642d6c697374203e7d7d-in-preparation-for-the-workshop",
+    "objectID": "contents/index.html#in-preparation-for-the-workshop",
+    "href": "contents/index.html#in-preparation-for-the-workshop",
     "title": "Welcome!",
     "section": " In preparation for the workshop",
     "text": "In preparation for the workshop\n\nBring your laptop to the class.\nMake sure you have R and R Studio installed on your laptop. To do this, follow the procedure described in this website\nInstall the Desktop Zotero app on your laptop. You can download it from this official website. Also, install the Zotero Connector extension for your web browser (e.g., Chrome, Firefox, Edge, etc.). This allows you to save references directly from your browser to your Zotero library.\nInstall the Quarto CLI on your laptop. You can download it from this official website.",
@@ -30,8 +30,8 @@
     ]
   },
   {
-    "objectID": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120617374657269736b203e7d7d-recommended-readings",
-    "href": "contents/index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120617374657269736b203e7d7d-recommended-readings",
+    "objectID": "contents/index.html#recommended-readings",
+    "href": "contents/index.html#recommended-readings",
     "title": "Welcome!",
     "section": " Recommended readings",
     "text": "Recommended readings\n\n Reproducible Research Guide - UC Davis Library\n Data and Code Availability Policy - American Economic Review",
@@ -42,65 +42,79 @@
   {
     "objectID": "contents/Day2/day2-slides.html#materials-for-the-workshop",
     "href": "contents/Day2/day2-slides.html#materials-for-the-workshop",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "title": "Part 2: How to prepare a reproducible research package?",
     "section": "Materials for the workshop",
     "text": "Materials for the workshop\nAll the slides and materials for this workshop are available from this GitHub repository (click the following link to access the repository):  Access the materials\n\nThere, you can find the slides for both Part 1 and Part 2, as well as the example reproducible projects with R and Stata that we will be using for the hands-on exercises."
   },
   {
-    "objectID": "contents/Day2/day2-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
-    "href": "contents/Day2/day2-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "objectID": "contents/Day2/day2-slides.html#outline",
+    "href": "contents/Day2/day2-slides.html#outline",
+    "title": "Part 2: How to prepare a reproducible research package?",
     "section": " Outline",
-    "text": "Outline\n\nReproducibility and Replicability\nExercise: Examining an example of a reproducible Stata project\nExercise: Evaluating other reproducible research projects in economics {.center}\nBonus: Citation management tools\n\n\n\n\n\n Goal of today’s session\n\n\n\nThrough these hands-on exercises, you will gain a better understanding of how to implement reproducible practices in your own research projects.\n\n\n\n\nFeel free to stop me at any time if you have questions or would like to share your thoughts."
+    "text": "Outline\n\nReproducibility and Replicability\nExercise: Examining an example of a reproducible Stata project\nExercise: Evaluating other reproducible research projects in economics {.center}\n\nExample replication package 1: Palma (2022)\nExample replication package 2: Pabilonia and Victoria Vernon (2022)\n\n\n\n\n\n\n Goal of today’s session\n\n\n\nThrough these hands-on exercises, you will gain a better understanding of how to implement reproducible practices in your own research projects.\n\n\n\n\nFeel free to stop me at any time if you have questions or would like to share your thoughts."
   },
   {
     "objectID": "contents/Day2/day2-slides.html#review-reproducibility-and-replicability",
     "href": "contents/Day2/day2-slides.html#review-reproducibility-and-replicability",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "title": "Part 2: How to prepare a reproducible research package?",
     "section": "Review: Reproducibility and Replicability",
     "text": "Review: Reproducibility and Replicability\nReproducibility and replicability are often used interchangeably but have distinct meanings (Cacioppo et al. 2015).\n\n\n\n\nDefinition: Reproducibility\n\n\n“Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator.”\n\n\n\n→ Can we get the same results if we use the same data and code?\n\n\n\n\n\nDefinition: Replicability\n\n\n“Replicability refers to the ability of a researcher to duplicate the results of a prior study if the same procedures are followed but new data are collected.””\n\n\n\n→ Can we get the same results if we collect new data and follow the same procedures?\n\nBoth reproducibility and replicability are essential for the robustness of scientific research."
   },
   {
     "objectID": "contents/Day2/day2-slides.html#take-a-look-at-an-example-of-a-reproducible-project-stata-version",
     "href": "contents/Day2/day2-slides.html#take-a-look-at-an-example-of-a-reproducible-project-stata-version",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "title": "Part 2: How to prepare a reproducible research package?",
     "section": "Take a look at an example of a reproducible project (Stata version)",
     "text": "Take a look at an example of a reproducible project (Stata version)\nDownload the project material by cloning the following github repository:\nClick  Download files\n\nOr download the zip file from the repository and extract it to your local directory.\n→ Go to the repository &gt; Click the green “Code” button &gt; Click “Download ZIP”"
   },
   {
-    "objectID": "contents/Day2/day2-slides.html#overview-of-the-project-structure",
-    "href": "contents/Day2/day2-slides.html#overview-of-the-project-structure",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
-    "section": "Overview of the project structure",
-    "text": "Overview of the project structure\nThis project provides code files to generate the analytical results and a manuscript file to compile the paper.\n\n\ncode/main.do is the master do-file that runs all the code files in the correct order.\nwriting/manuscript_to_pdf.qmd s the Quarto file that generates the manuscript PDF using the results produced by the code files.\n\n\n\n\n\nNote\n\n\nYou do not need to use Quarto to write the manuscript. You can use any writing tool you prefer (e.g., R Markdown, LaTeX with Overleaf, or Word)."
+    "objectID": "contents/Day2/day2-slides.html#overview-of-the-structure-of-the-example-project",
+    "href": "contents/Day2/day2-slides.html#overview-of-the-structure-of-the-example-project",
+    "title": "Part 2: How to prepare a reproducible research package?",
+    "section": "Overview of the structure of the example project",
+    "text": "Overview of the structure of the example project\nThis project provides code files to generate the analytical results and a manuscript file to compile the paper.\n\n\ncode/main.do is the master do-file that runs all the code files in the correct order.\nwriting/manuscript_to_pdf.qmd s the Quarto file that generates the manuscript PDF using the results produced by the code files.\n\n\n\n\n\nNote\n\n\nYou do not need to use Quarto to write the manuscript. You can use any writing tool you prefer (e.g., R Markdown, LaTeX with Overleaf, or Word)."
   },
   {
     "objectID": "contents/Day2/day2-slides.html#example-of-a-reproducible-project-stata-version",
     "href": "contents/Day2/day2-slides.html#example-of-a-reproducible-project-stata-version",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "title": "Part 2: How to prepare a reproducible research package?",
     "section": "Example of a reproducible project (Stata version)",
     "text": "Example of a reproducible project (Stata version)\nPretend that the project you just downloaded is someone else’s project that you want to reproduce.\n\nLet’s critically evaluate the reproducibility of the project by asking the following questions:\n\n\n\nCheck:\n\n\n\nLook at README.md. Does it clearly explain how to reproduce the results?\nLook at the project structure. Is it organized in a way that facilitates reproducibility? Can you easily tell which code file corresponds to which part of the analysis?\nLook at the code files. Do they follow the principle of an automated workflow?\nWhat other features of this project do you think are helpful for reproducibility?\n\n\n\n\n\n\n\n\nDiscussion\n\n\nI am interested in hearing your thoughts on how to improve the workflow with Stata (e.g., How to manage the path to the working directory)."
   },
   {
     "objectID": "contents/Day2/day2-slides.html#evaluating-other-reproducible-research-projects-in-economics",
     "href": "contents/Day2/day2-slides.html#evaluating-other-reproducible-research-projects-in-economics",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
+    "title": "Part 2: How to prepare a reproducible research package?",
     "section": "Evaluating other reproducible research projects in economics",
     "text": "Evaluating other reproducible research projects in economics\nThere are several platforms where researchers share public data and code. You can use these repositories as templates when preparing your own reproducible research packages (link attached).\n\n AEA Data and Code Repository (OpenICPSR) — replication packages for economics journals\n Harvard Dataverse — widely used repository for data and code in economics\n Zenodo — open repository with many downloadable replication packages\n OSF — open platform for sharing research materials, data, and code\n\n\nLet’s examine a few real examples and discuss what makes them more or less reproducible."
   },
   {
-    "objectID": "contents/Day2/day2-slides.html#example-1-kovak-b.-morrow-p.-2024",
-    "href": "contents/Day2/day2-slides.html#example-1-kovak-b.-morrow-p.-2024",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
-    "section": "Example 1: Kovak, B., & Morrow, P. (2024)",
-    "text": "Example 1: Kovak, B., & Morrow, P. (2024)"
+    "objectID": "contents/Day2/day2-slides.html#example-1-palma2022---the-real-effects-of-monetary-expansions-evidence-from-a-large-scale-historical-experiment.-example1-.center",
+    "href": "contents/Day2/day2-slides.html#example-1-palma2022---the-real-effects-of-monetary-expansions-evidence-from-a-large-scale-historical-experiment.-example1-.center",
+    "title": "Part 2: How to prepare a reproducible research package?",
+    "section": "Example 1: Palma (2022) - “The Real Effects of Monetary Expansions: Evidence from a Large-scale Historical Experiment.” {example1 .center}",
+    "text": "Example 1: Palma (2022) - “The Real Effects of Monetary Expansions: Evidence from a Large-scale Historical Experiment.” {example1 .center}\n\nTake a look at the replication package for the study by Palma (2022).\n\nHere is the link to the replication package:  Access the replication package.\nHere is the link to the original paper:  Access the original paper.\n\n\n\n\n\n\nCheck:\n\n\n\nDoes the README file provide clear instructions on how to reproduce the results?\nCan you easily tell which code files produce which tables, figures, or results?\nOverall, do you think another researcher could reproduce the analysis without any difficulties? How would you improve the reproducibility of this project?"
   },
   {
-    "objectID": "contents/Day2/day2-slides.html#bonus-citation-management-tools",
-    "href": "contents/Day2/day2-slides.html#bonus-citation-management-tools",
-    "title": "Part 2: Practical Tools for Reproducibility in Scientific Research",
-    "section": "Bonus: Citation management tools",
-    "text": "Bonus: Citation management tools\nI\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795."
+    "objectID": "contents/Day2/day2-slides.html#example2",
+    "href": "contents/Day2/day2-slides.html#example2",
+    "title": "Part 2: How to prepare a reproducible research package?",
+    "section": "Example 2: Pabilonia and Victoria Vernon (2022) - “Telework, Wages, and Time Use in the United States”",
+    "text": "Example 2: Pabilonia and Victoria Vernon (2022) - “Telework, Wages, and Time Use in the United States”\n\nTake a look at the replication package for the study by Pabilonia and Victoria Vernon (2022).\n\nHere is the link to the replication package:  Access the replication package.\nHere is the link to the original paper:  Access the original paper.\n\n\n\n\n\n\nCheck:\n\n\n\nDoes the README file provide clear instructions on how to reproduce the results?\nCan you easily tell which code files produce which tables, figures, or results?\nOverall, do you think another researcher could reproduce the analysis without any difficulties? How would you improve the reproducibility of this project?"
+  },
+  {
+    "objectID": "contents/Day2/day2-slides.html#key-takeaways-from-this-workshop",
+    "href": "contents/Day2/day2-slides.html#key-takeaways-from-this-workshop",
+    "title": "Part 2: How to prepare a reproducible research package?",
+    "section": "Key takeaways from this workshop",
+    "text": "Key takeaways from this workshop\n\nA small amount of extra effort can greatly improve the reproducibility of your research project.\nReproducible practices make your work easier to understand, check, and build on.\nThese practices benefit not only the scientific community, but also you and your collaborators."
+  },
+  {
+    "objectID": "contents/Day2/day2-slides.html#references",
+    "href": "contents/Day2/day2-slides.html#references",
+    "title": "Part 2: How to prepare a reproducible research package?",
+    "section": "References",
+    "text": "References\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nPabilonia, Sabrina Wulff, and Victoria Vernon. 2022. “Telework, Wages, and Time Use in the United States.” Review of Economics of the Household 20 (3): 687–734. https://doi.org/10.1007/s11150-022-09601-1.\n\n\nPalma, Nuno. 2022. “The Real Effects of Monetary Expansions: Evidence from a Large-scale Historical Experiment.” The Review of Economic Studies 89 (3): 1593–1627. https://doi.org/10.1093/restud/rdab042."
   },
   {
     "objectID": "contents/Day1/day1-slides.html#welcome",
@@ -110,8 +124,8 @@
     "text": "Welcome!\n\nWorkshop on reproducibility in economics (applicable to scientific research more broadly).\nTwo sessions:\n\nPart 1 (today): Introduction\nPart 2 (next session): Practical tools\n\nMaterials:\n\n  https://github.com/Shunkei3/Reproducibility-Workshop \n\n\n\nFeel free to stop me at any time if you have questions or want to share your thoughts."
   },
   {
-    "objectID": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
-    "href": "contents/Day1/day1-slides.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c697374203e7d7d-outline",
+    "objectID": "contents/Day1/day1-slides.html#outline",
+    "href": "contents/Day1/day1-slides.html#outline",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": " Outline",
     "text": "Outline\n\nIntroduction:\n\nWhat is reproducibility?\nCurrent landscape of reproducibility in economics\n\nKey components of reproducible research\n\nProject organization\nReproducible workflow\nDocumentation\nSharing\n\nHands-on experience with example reproducible project\n\n\n\n\n\n Goal of today’s session\n\n\n\nUnderstand the core principles of reproducible research.\nBecome familiar with tools and resources for implementing reproducibility practices through hands-on experience."
@@ -184,7 +198,7 @@
     "href": "contents/Day1/day1-slides.html#references",
     "title": "Part 1: Introduction to Reproducibility in Scientific Research",
     "section": "References",
-    "text": "References\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nChang, Andrew C, and Phillip Li. 2018. “Is Economics Research Replicable? Sixty Published Papers from Thirteen Journals Say ‘Often Not’.” Critical Finance Review 7: 1–25.\n\n\nNational Academies of Sciences, Medicine, Policy, et al. 2019. Reproducibility and Replicability in Science. National Academies Press.\n\n\nVilhuber, Lars. 2020. “Reproducibility and Replicability in Economics.” Harvard Data Science Review 2 (4): 1–39."
+    "text": "References\n\n\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1: 795.\n\n\nChang, Andrew C, and Phillip Li. 2018. “Is Economics Research Replicable? Sixty Published Papers from Thirteen Journals Say ‘Often Not’.” Critical Finance Review 7: 1–25.\n\n\nNational Academies of Sciences, Medicine, Policy, Global Affairs, Board on Research Data, Information, Division on Engineering, Physical Sciences, Committee on Applied, and Theoretical Statistics. 2019. Reproducibility and Replicability in Science. National Academies Press.\n\n\nVilhuber, Lars. 2020. “Reproducibility and Replicability in Economics.” Harvard Data Science Review 2 (4): 1–39."
   },
   {
     "objectID": "contents/Appendix1/how-to-radian.html",
