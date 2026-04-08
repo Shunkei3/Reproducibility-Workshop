@@ -7,7 +7,7 @@ The workshop materials are available from [here](https://shunkei3.github.io/Repr
 ## Link to the workshop materials
 + Slides for Part 1: [Reproducibility Workshop - Part 1](https://shunkei3.github.io/Reproducibility-Workshop/contents/Day1/day1-slides.html)
 
-+ Slides for Part 2: Reproducibility Workshop - Part 2
++ Slides for Part 2: [Reproducibility Workshop - Part 2](https://shunkei3.github.io/Reproducibility-Workshop/contents/Day2/day2-slides.html)
 + Appendix: 
   + [Hands-on materials for Part 1: Example reproducible project with R](https://github.com/Shunkei3/Sample-Reproducible-Project)
   + [Hands-on materials for Part 2: Example reproducible project with Stata](https://github.com/Shunkei3/Sample-Reproducible-Project-stata)
